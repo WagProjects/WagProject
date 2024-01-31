@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6", 
+        "module": "commonjs",
+        "rootDir": "app/src",
+        "outDir": "app/dist",
+        "noEmitOnError": true, 
+        "strictNullChecks": true, 
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "include":["app/src"] 
+}
