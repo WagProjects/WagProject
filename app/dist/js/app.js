@@ -1,2 +1,2 @@
+alert("oi");
 //# sourceMappingURL=app.js.map
-alert('oi')
