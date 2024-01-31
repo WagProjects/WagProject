@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Mark specific files in app/dist/js as generated
+app/dist/js/app.js linguist-generated
+app/dist/js/app.js.map linguist-generated
