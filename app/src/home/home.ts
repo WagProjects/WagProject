@@ -3,7 +3,7 @@ export function corpo(){
     return (
         corpo.innerHTML = `
             <nav class="menu">
-                <img src="../../public/assets/Logo.png" alt="Logo" />
+                <img src="/assets/Logo.png" alt="Logo" />
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Sobre</a></li>

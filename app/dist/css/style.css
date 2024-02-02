@@ -1,17 +1,17 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: var(--font-secundaria);
+    font-family: var(--font-primaria);
 }
 
 @font-face{
     font-family: 'Varela Round';
-    src: url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+    src: url('../../public/assets/fonts/VarelaRound-Regular.ttf') format('truetype');
 }
 
 @font-face{
     font-family: 'BungeeSpice';
-    src: url('../../public/assets/fonts/BungeeSpice-Regular.ttf');
+    src: url('../../public/assets/fonts/BungeeSpice-Regular.ttf') format('truetype');
 }
 
 :root {

@@ -10,7 +10,8 @@
     },
     "include":[
         "app/src", 
-        "app/app.ts"
+        "app/app.ts",
+        "app/public" 
     ],
     "exclude": [
         "node_modules"
