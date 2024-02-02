@@ -1,6 +1,7 @@
 {
   "name": "Portifólio WagProjects",
   "version": "1.0.0",
+  "homepage": "https://wagprojects.github.io/WagProject/",
   "description": "Meu portifólio de projetos",
   "main": "app.js",
   "scripts": {
