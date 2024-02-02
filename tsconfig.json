@@ -1,13 +1,18 @@
 {
     "compilerOptions": {
-        "target": "es6", 
-        "module": "commonjs",
-        "rootDir": "app/src",
-        "outDir": "app/dist",
+        "target": "ESNext",
+        "module": "ES6",
+        "outDir": "app/dist/js",
         "noEmitOnError": true, 
         "strictNullChecks": true, 
         "experimentalDecorators": true,
-        "sourceMap": true
+        "moduleResolution": "node"
     },
-    "include":["app/src"] 
+    "include":[
+        "app/src", 
+        "app/app.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ] 
 }
