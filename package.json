@@ -2,7 +2,7 @@
   "name": "Portifólio WagProjects",
   "version": "1.0.0",
   "description": "Meu portifólio de projetos",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "lite-server --baseDir=app/dist",
