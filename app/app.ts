@@ -1,5 +1,11 @@
-import { ooi } from "./src/menu/menu.js"
-import { corpo } from "./src/home/home.js"
+import { criarElementoMenu } from "./src/menu/menu.js"
+import { criarElementoSaudacao } from "./src/home/home.js"
 
-ooi()
-corpo()
+
+function criarElemento(elemento: HTMLElement){
+    const container = document.querySelector("body") as HTMLBodyElement
+    container.appendChild(elemento)
+}
+
+criarElemento(criarElementoMenu());
+criarElemento(criarElementoSaudacao())
