@@ -1,0 +1,161 @@
+/* DEFINIÇÕES DE PADRÕES */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-primaria);
+    color: var(--color-font-menu);
+}
+
+body{
+    background: linear-gradient(180deg, rgba(24,20,50,1) 5%, rgba(43,36,89,1) 25%, rgba(114,39,54,0.95) 40%, rgba(222,61,38,0.9) 55%, rgba(253,101,54,0.85) 70%, rgba(246,165,45,0.8) 85%, rgba(255,215,0,1) 100%);
+    background-repeat: no-repeat;
+}
+
+.container__geral{
+    padding: 0 10%;
+}
+
+@font-face{
+    font-family: 'Varela Round';
+    src: url('../../../public/assets/fonts/VarelaRound-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'BungeeSpice';
+    src: url('../../../public/assets/fonts/BungeeSpice-Regular.ttf') format('truetype');
+}
+
+:root {
+    --font-primaria: 'Varela Round';
+    --font-secundaria: 'BungeeSpice';
+    --tamanho-font-menu: 18px;
+    --tamanho-font-titulo-card: 36px;
+
+    --color-font-menu: rgb(112,128,144);
+    --color-card: rgba(0, 0, 0, 0.4);
+
+    --default-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    --default-light: 0 0 20px rgb(255, 255, 255, 0.9);
+}
+/* FINAL DAS DEFINIÇÕES DE PADRÕES */
+
+
+/* DEFINIÇÃO CONTAINER SOBRE */
+.container__sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#imagem__sobre{
+    margin: 150px 10% 0 10%;
+}
+
+/* DEFINIÇAO CARD SOBRE*/
+.card__sobre{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Duas colunas com tamanhos iguais */
+    align-items: center;
+    gap: 20px; /* Espaço de 20 pixels entre as colunas */
+    margin: 100px 0;
+    margin-bottom: 5000px;
+    padding: 20px;
+
+    max-width: 1080px;
+    min-width: 700px;
+    
+    background-color: var(--color-card);
+    border-radius: 20px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.8);
+    transition: box-shadow 1s ease-in-out, background-color 1s;
+}
+
+.card__sobre:hover{
+    box-shadow: 0 0 20px rgb(255, 255, 255, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../public/assets/images/Estrelas02.png);
+    background-size: contain; /*contain: A imagem é dimensionada para caber totalmente dentro do contêiner, mantendo a proporção original.*/
+    
+}
+/* FIM DEFINIÇÃO CARD SOBRE*/
+
+/* DEFINIÇÃO ASIDE */
+.card__sobre aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    min-width: 280px;
+    padding: 10px;
+    border-radius: 15px;
+    /*background-color: rgba(0, 0, 0, 0.05);*/
+    transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.card__sobre aside ul{
+    list-style: none;
+}
+
+.card__sobre aside li{
+    text-align: left;
+    margin: 20px 0;
+}
+
+.card__sobre aside li.meu__nome{
+    text-align: center;
+    font-size: 2em;
+}
+
+.card__sobre aside li a{
+    text-decoration: none;
+}
+
+.card__sobre aside li img{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.card__sobre aside li img#icon__localiza{
+    width: 16px;
+}
+
+.card__sobre aside:hover{
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
+}
+
+#foto__perfil{
+    margin: 20px;
+    width: 80%;
+    border-radius: 50%;
+}
+
+/* FIM DEFINIÇÃO ASIDE */
+
+.card__sobre .content{
+    justify-content: flex-start;
+    margin: 5px;
+    padding: 30px;
+    border-radius: 15px;
+    height: 87%;
+    transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.card__sobre .content h1{
+    font-size: var(--tamanho-font-titulo-card);
+    margin: 10px 0 80px 0;
+}
+
+.card__sobre .content ul{
+    margin-left: 25px;
+}
+
+.card__sobre .content:hover{
+    background-color: rgba(0, 0, 0, 1);
+    box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
+}
+
+
+/* FINAL DEFINIÇÃO CONTAINER SOBRE */

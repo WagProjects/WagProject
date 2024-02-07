@@ -1,8 +1,13 @@
 import { criarElementoMenu } from "./src/menu/menu.js";
-import { criarElementoSaudacao } from "./src/home/home.js";
-function criarElemento(elemento) {
-    const container = document.querySelector("body");
+import { criarElementoSaudacao, criarContainerGeral } from "./src/home/home.js";
+function inserirElementoBody(elemento) {
+    const menu = document.querySelector("body");
+    menu.appendChild(elemento);
+}
+function inserirElementoNoContainerGeral(elemento) {
+    const container = document.querySelector(".container__geral");
     container.appendChild(elemento);
 }
-criarElemento(criarElementoMenu());
-criarElemento(criarElementoSaudacao());
+inserirElementoBody(criarElementoMenu());
+inserirElementoBody(criarContainerGeral());
+inserirElementoNoContainerGeral(criarElementoSaudacao());

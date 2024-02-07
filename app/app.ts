@@ -1,11 +1,18 @@
 import { criarElementoMenu } from "./src/menu/menu.js"
-import { criarElementoSaudacao } from "./src/home/home.js"
+import { criarElementoSaudacao, criarContainerGeral } from "./src/home/home.js"
+
+function inserirElementoBody(elemento: HTMLElement){
+    const menu = document.querySelector("body") as HTMLBodyElement
+    menu.appendChild(elemento)
+}
 
 
-function criarElemento(elemento: HTMLElement){
-    const container = document.querySelector("body") as HTMLBodyElement
+function inserirElementoNoContainerGeral(elemento: HTMLElement){
+    const container = document.querySelector(".container__geral") as HTMLBodyElement
     container.appendChild(elemento)
 }
 
-criarElemento(criarElementoMenu());
-criarElemento(criarElementoSaudacao())
+
+inserirElementoBody(criarElementoMenu());
+inserirElementoBody(criarContainerGeral())
+inserirElementoNoContainerGeral(criarElementoSaudacao())
