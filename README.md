@@ -3,7 +3,6 @@
         Meu Portifólio 
     </h1>
 </div>
-Construido em HTML, CSS3 E JAVASCRIPT
 
 ### 🛠 Ferramentas Utilizadas
 <div>
