@@ -41,12 +41,18 @@
     color: var(--color-font-menu);
 }
 
-.menu ul li:hover{
+.menu ul li:hover,
+.menu ul li.active{
     border-top: 3px solid rgb(224,255,255);
+    text-shadow: var(--default-light);
 }
 
-.menu ul a:hover{
+.menu ul li.active a{
     color: rgb(224,255,255);
-    text-shadow: var(--default-light); /* Adiciona uma sombra branca com opacidade para simular o brilho */
 }
+
+.menu ul li a:hover{
+    color: rgb(224,255,255);
+    text-shadow: var(--default-light);  /*Adiciona uma sombra branca com opacidade para simular o brilho*/
+} 
 

@@ -3,13 +3,13 @@ export function criarElementoMenu(): HTMLElement{
     menuNavegacao.classList.add('menu')
     menuNavegacao.innerHTML = `
         <img src="../../../public/assets/images/Logo-01.png" alt="Logo" />
-        <ul>
-            <li class="item-enabled"><a href="#">Home</a></li>
-            <li class="item-desabled"><a href="#">Sobre</a></li>
-            <li class="item-desabled"><a href="#">Experiências</a></li>
-            <li class="item-desabled"><a href="#">Projetos</a></li>
-            <li class="item-desabled"><a href="#">Educação</a></li>
-            <li class="item-desabled"><a href="#">Contato</a></li>
+        <ul class="menu__nav">
+            <li onclick="active(this)"><a href="#" title="Vá para o topo da página" onclick="scrollElemento('.card__sobre', event)">Home</a></li>
+            <li onclick="active(this)"><a href="#" title="Uma preve apresentação sobre mim" onclick="scrollElemento('.card__sobre', event)">Sobre</a></li>
+            <li onclick="active(this)"><a href="#" title="Minhas experiências profissionais" onclick="scrollElemento('.card__sobre', event)">Experiências</a></li>
+            <li onclick="active(this)"><a href="#" title="Meus projetos pessoais" onclick="scrollElemento('.card__sobre', event)">Projetos</a></li>
+            <li onclick="active(this)"><a href="#" title="Minhas formações e cursos" onclick="scrollElemento('.card__sobre', event)">Educação</a></li>
+            <li onclick="active(this)"><a href="#" title="Entre em contato" onclick="scrollElemento('.card__sobre', event)">Contato</a></li>
         <ul>
     `
 
