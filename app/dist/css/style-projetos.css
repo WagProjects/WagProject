@@ -1,0 +1,141 @@
+/* DEFINIÇÃO CONTAINER PROJETOS */
+
+.container__projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: 100px 0;
+}
+
+.card__projetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    box-sizing: border-box;
+    padding: 100px;
+
+    background-color: var(--background-color-card);
+    box-shadow: var(--box-shadow-card);
+
+    width: 100%;
+}
+
+.card__projetos h1{
+    margin: 30px;
+}
+
+/*DEFINIÇÃO DO CARROUSEL*/
+.swiper {
+    width: 1200px;
+    height: 600px;
+    background-color: var(--background-color-card);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow-card);
+}
+
+.swiper-player{
+    background: radial-gradient(circle, rgba(0,0,0,0.1) 68%, rgba(255,255,255, 0) 100%);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-card);
+    margin: 20px;
+}
+
+.swiper-wrapper div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.swiper-wrapper .swiper-player img{
+    width: 640px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+.swiper-wrapper .swiper-slide aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: justify;
+    margin: 20px 20px 20px 0;
+    min-width: 440px;
+    min-height: 344px;
+    padding: 10px;
+    background: radial-gradient(circle, rgba(0,0,0,0.1) 68%, rgba(255,255,255, 0) 100%);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow-card);
+}
+
+.swiper-wrapper .swiper-slide aside .aside-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.swiper-wrapper .swiper-slide aside .aside-content h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.swiper-wrapper .swiper-slide aside .aside-content p{
+    margin: 2px;
+}
+
+.swiper-wrapper .swiper-slide aside .aside-link{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.swiper-wrapper .swiper-slide aside .aside-link div{
+    padding: 0;
+}
+
+.swiper-wrapper .swiper-slide aside .aside-link span{
+    vertical-align: middle;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.swiper-wrapper .swiper-slide aside span a{
+    text-decoration: none;
+}
+
+.swiper-wrapper .swiper-slide .icon-github{
+    width: 25px;
+    height: 25px;
+}
+
+.swiper-wrapper div aside span:hover,
+.swiper-wrapper div aside span a:hover{
+    background: var(--background-color-card);
+    color: #fff;
+    text-shadow: var(--default-light);
+}
+
+.swiper-wrapper div aside span img{
+    vertical-align: bottom;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+
+/* .swiper-wrapper div aside a img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+} */
+
+.swiper-scrollbar {
+    display: none;
+}
+/*FIM DEFINIÇÃO DO CARROUSEL*/

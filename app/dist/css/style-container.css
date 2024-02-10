@@ -7,13 +7,13 @@
 }
 
 body{
-    background: linear-gradient(180deg, rgba(24,20,50,1) 5%, rgba(43,36,89,1) 25%, rgba(114,39,54,0.95) 40%, rgba(222,61,38,0.9) 55%, rgba(253,101,54,0.85) 70%, rgba(246,165,45,0.8) 85%, rgba(255,215,0,1) 100%);
+    background: linear-gradient(180deg, rgba(24,20,50,1) 5%, rgba(43,36,89,1) 25%, rgba(114,39,54,0.95) 40%, rgba(222,61,38,0.9) 55%, rgba(253,101,54,0.85) 75%, rgba(246,165,45,0.8) 85%, rgb(214, 124, 19) 90%, rgb(218, 167, 1) 100%);
     background-repeat: no-repeat;
 }
 
-.container__geral{
-    padding: 0 10%;
-}
+/* .container__geral{
+    padding: 0px 10%;
+} */
 
 @font-face{
     font-family: 'Varela Round';
@@ -32,7 +32,8 @@ body{
     --tamanho-font-titulo-card: 36px;
 
     --color-font-menu: rgb(112,128,144);
-    --color-card: rgba(0, 0, 0, 0.4);
+    --background-color-card: rgba(0, 0, 0, 0.4);
+    --box-shadow-card: 0 0 80px rgba(0, 0, 0, 0.8);
 
     --default-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     --default-light: 0 0 20px rgb(255, 255, 255, 0.9);
@@ -46,10 +47,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: 100px 0;
 }
 
-#imagem__sobre{
-    margin: 150px 10% 0 10%;
+#imagem__sobre, #imagem__projetos{
+    margin: 150px 10%;
 }
 
 /* DEFINIÇAO CARD SOBRE*/
@@ -58,16 +61,14 @@ body{
     grid-template-columns: 1fr 2fr; /* Duas colunas com tamanhos iguais */
     align-items: center;
     gap: 20px; /* Espaço de 20 pixels entre as colunas */
-    margin: 100px 0;
-    margin-bottom: 5000px;
-    padding: 20px;
+    padding: 100px;
 
     max-width: 1080px;
     min-width: 700px;
     
-    background-color: var(--color-card);
+    background-color: var(--background-color-card);
     border-radius: 20px;
-    box-shadow: 0 0 80px rgba(0, 0, 0, 0.8);
+    box-shadow: var(--box-shadow-card);
     transition: box-shadow 1s ease-in-out, background-color 1s;
 }
 
@@ -89,6 +90,7 @@ body{
     min-width: 280px;
     padding: 10px;
     border-radius: 15px;
+    box-shadow: var(--default-shadow);
     /*background-color: rgba(0, 0, 0, 0.05);*/
     transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out;
 }
@@ -122,7 +124,8 @@ body{
 }
 
 .card__sobre aside:hover{
-    background-color: rgba(0, 0, 0, 1);
+    /* background-color: rgba(0, 0, 0, 1); */
+    background: linear-gradient(171deg, rgba(24,20,50,0.3) 0%, rgba(0,0,0,0.5) 49%, rgba(114,39,54,0.3) 100%);
     box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
 }
 
@@ -157,6 +160,4 @@ body{
     background-color: rgba(0, 0, 0, 1);
     box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
 } */
-
-
 /* FINAL DEFINIÇÃO CONTAINER SOBRE */

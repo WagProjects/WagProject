@@ -1,5 +1,5 @@
 import { criarElementoMenu } from "./src/menu/menu.js";
-import { criarElementoSaudacao, criarContainerGeral } from "./src/home/home.js";
+import { criarContainerGeral, criarElementoSobre, criarElementoProjetos } from "./src/home/home.js";
 function inserirElementoBody(elemento) {
     const menu = document.querySelector("body");
     menu.appendChild(elemento);
@@ -10,4 +10,5 @@ function inserirElementoNoContainerGeral(elemento) {
 }
 inserirElementoBody(criarElementoMenu());
 inserirElementoBody(criarContainerGeral());
-inserirElementoNoContainerGeral(criarElementoSaudacao());
+inserirElementoNoContainerGeral(criarElementoSobre());
+inserirElementoNoContainerGeral(criarElementoProjetos());
