@@ -12,7 +12,7 @@ export function criarElementoSobre(){
     cardSobre.classList.add('card__sobre')
     
     sectionSobre.innerHTML = `
-        <img src="" alt="sobre" id="imagem__sobre" />
+        <h1 class="titulo__secao">Sobre!</h1>
     `
 
     cardSobre.innerHTML = `
@@ -63,7 +63,7 @@ export function criarElementoProjetos(){
     cardProjetos.classList.add('card__projetos')
     
     sectionProjetos.innerHTML = `
-        <img src="" alt="projetos" id="imagem__projetos"/>
+        <h1 class="titulo__secao">Projetos</h1>
     `
 
     cardProjetos.innerHTML = `

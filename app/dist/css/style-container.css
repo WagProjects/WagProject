@@ -51,6 +51,38 @@ body{
     margin: 100px 0;
 }
 
+.titulo__secao{
+    position: relative;
+    text-transform: uppercase;
+    margin: 200px;
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: rgb(224,255,255);
+    text-shadow: var(--default-light);
+}
+
+.titulo__secao::before,
+.titulo__secao::after {
+    content: ""; /* Importante para as pseudo-classes gerarem um conteúdo visual */
+    display: inline-block;
+    width: 100px; /* Largura da imagem (ajuste conforme necessário) */
+    height: 100px; /* Altura da imagem (ajuste conforme necessário) */
+    background-size: cover; /* Ajuste para cobrir a área do contêiner com a imagem */
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.titulo__secao::before {
+    background-image: url('../public/assets/images/Icon-seta-section.png');
+    left: -150px;
+}
+
+.titulo__secao::after {
+    background-image: url('../public/assets/images/Icon-seta-section.png');
+    right: -150px;
+    transform: scalex(-1);
+}
+
 #imagem__sobre, #imagem__projetos{
     margin: 150px 10%;
 }

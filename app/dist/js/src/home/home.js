@@ -9,7 +9,7 @@ export function criarElementoSobre() {
     sectionSobre.classList.add('container__sobre');
     cardSobre.classList.add('card__sobre');
     sectionSobre.innerHTML = `
-        <img src="" alt="sobre" id="imagem__sobre" />
+        <h1 class="titulo__secao">Sobre</h1>
     `;
     cardSobre.innerHTML = `
             <aside>
@@ -56,7 +56,7 @@ export function criarElementoProjetos() {
     sectionProjetos.classList.add('container__projetos');
     cardProjetos.classList.add('card__projetos');
     sectionProjetos.innerHTML = `
-        <img src="" alt="projetos" id="imagem__projetos"/>
+        <h1 class="titulo__secao">Projetos</h1>
     `;
     cardProjetos.innerHTML = `
         <h1>Projetos</h1>
