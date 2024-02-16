@@ -1,0 +1,106 @@
+/* DEFINIÇÃO DO CONTAINER EDUCAÇÃO*/
+.container__educacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* FIM DEFINIÇÃO DO CONTAINER EDUCAÇÃO*/
+
+/* DEFINIÇÃO DO CARD EDUCAÇÃO*/
+.card__educacao{
+    padding: 100px 0;
+    margin-bottom: 20000px;
+    
+    width: 100%;
+    background-color: var(--background-color-card);
+    box-shadow: var(--box-shadow-card);
+}
+
+/*DEFINIÇÃO DA UL*/
+.nav__educacao{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: justify;
+    width: 100%;
+}
+
+
+.nav__educacao li{
+    position: relative;
+    box-sizing: border-box;
+    height: 300px;
+    color: #fff;
+    overflow: hidden;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.nav__educacao li:hover{
+    cursor: pointer;
+    border: 5px solid rgba(224, 255, 255, 1);
+    border-radius: 2px;
+    box-shadow: var(--default-light);
+}
+
+.educacao__background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+    z-index: 1;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    transition: transform 0.5s ease;
+}
+
+.nav__educacao li:hover .educacao__background{
+    position: relative;
+    transform: scale(1.05); 
+    background-image: url('../public/assets/images/background-item01.jpg');
+}
+
+.nav__educacao li:hover .educacao__background::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../public/assets/images/Icon-js.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px 50px;
+} 
+
+.educacao__content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.educacao__content h1{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+/*FIM DEFINIÇÃO DA UL*/
+
+/* DEFINIÇÃO ITEM 01*/
+.educacao__item-01 .educacao__background{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item01.jpg');
+}
+/*FIM DEFINIÇÃO ITEM 01*/
+
+
+/* FIM DEFINIÇÃO DO CARD EDUCAÇÃO*/

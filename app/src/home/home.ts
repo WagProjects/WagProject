@@ -12,7 +12,7 @@ export function criarElementoSobre(){
     cardSobre.classList.add('card__sobre')
     
     sectionSobre.innerHTML = `
-        <h1 class="titulo__secao">Sobre!</h1>
+        <h1 class="titulo__secao">Sobre</h1>
     `
 
     cardSobre.innerHTML = `
@@ -245,4 +245,36 @@ export function criarElementoProjetos(){
 
     sectionProjetos.appendChild(cardProjetos)
     return sectionProjetos
+}
+
+export function criarElementoEducacao(){
+    const sectionEducacao = document.createElement('section')
+    sectionEducacao.classList.add('container__educacao')
+
+    const cardEducacao = document.createElement('div')
+    cardEducacao.classList.add('card__educacao')
+
+    sectionEducacao.innerHTML = `
+        <h1 class="titulo__secao">Educação</h1>
+    `
+
+    cardEducacao.innerHTML = `
+        <ul class="nav__educacao">
+            <li class="educacao__item-01">
+                <div class="educacao__background">
+                </div>
+                <div class="educacao__content">
+                    <h1>Superior de Tecnologia em Análise e Desenvolvimento de Sistemas</h1>
+                    <p>2021-2023</p>
+                </div>
+            </li>
+            <li class="educacao__item-02">2</li>
+            <li class="educacao__item-03">3</li>
+            <li class="educacao__item-04">4</li>
+        </ul>
+    `
+
+    sectionEducacao.appendChild(cardEducacao)
+
+    return sectionEducacao
 }

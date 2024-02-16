@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     font-family: var(--font-primaria);
-    color: var(--color-font-menu);
 }
 
 body{
-    background: linear-gradient(180deg, rgba(24,20,50,1) 5%, rgba(43,36,89,1) 25%, rgba(114,39,54,0.95) 40%, rgba(222,61,38,0.9) 55%, rgba(253,101,54,0.85) 75%, rgba(246,165,45,0.8) 85%, rgb(214, 124, 19) 90%, rgb(218, 167, 1) 100%);
-    background-repeat: no-repeat;
+    background: rgb(255,165,0);
+    background: -moz-linear-gradient(0deg, rgba(255,165,0,0.6) 0%, rgba(250,81,14,0.7) 5%, rgba(176,79,67,1) 12%, rgba(148,78,87,1) 18%, rgba(127,77,101,1) 25%, rgba(74,75,139,1) 41%, rgba(57,58,113,1) 56%, rgba(15,15,46,1) 90%, rgba(0,0,23,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,165,0,0.6) 0%, rgba(250,81,14,0.7) 5%, rgba(176,79,67,1) 12%, rgba(148,78,87,1) 18%, rgba(127,77,101,1) 25%, rgba(74,75,139,1) 41%, rgba(57,58,113,1) 56%, rgba(15,15,46,1) 90%, rgba(0,0,23,1) 100%);
+    background: linear-gradient(0deg, rgba(255,165,0,0.6) 0%, rgba(250,81,14,0.7) 5%, rgba(176,79,67,1) 12%, rgba(148,78,87,1) 18%, rgba(127,77,101,1) 25%, rgba(74,75,139,1) 41%, rgba(57,58,113,1) 56%, rgba(15,15,46,1) 90%, rgba(0,0,23,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa500",endColorstr="#000017",GradientType=1);
 }
 
 /* .container__geral{
@@ -49,6 +51,7 @@ body{
     align-items: center;
 
     margin: 100px 0;
+    color: #fff;
 }
 
 .titulo__secao{
@@ -65,21 +68,23 @@ body{
 .titulo__secao::after {
     content: ""; /* Importante para as pseudo-classes gerarem um conteúdo visual */
     display: inline-block;
-    width: 100px; /* Largura da imagem (ajuste conforme necessário) */
-    height: 100px; /* Altura da imagem (ajuste conforme necessário) */
-    background-size: cover; /* Ajuste para cobrir a área do contêiner com a imagem */
+    width: 500px; /* Largura da imagem (ajuste conforme necessário) */
+    height: 40px; /* Altura da imagem (ajuste conforme necessário) */
+    background-size: contain; /* Ajuste para cobrir a área do contêiner com a imagem */
     background-repeat: no-repeat;
     position: absolute;
 }
 
 .titulo__secao::before {
-    background-image: url('../public/assets/images/Icon-seta-section.png');
-    left: -150px;
+    background-image: url('../public/assets/images/flecha3.png');
+    top: 8px;
+    left: -405px;
 }
 
 .titulo__secao::after {
-    background-image: url('../public/assets/images/Icon-seta-section.png');
-    right: -150px;
+    background-image: url('../public/assets/images/flecha3.png');
+    top: 8px;
+    right: -400px;
     transform: scalex(-1);
 }
 
@@ -143,6 +148,7 @@ body{
 
 .card__sobre aside li a{
     text-decoration: none;
+    color: #fff;
 }
 
 .card__sobre aside li img{

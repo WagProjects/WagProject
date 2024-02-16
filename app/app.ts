@@ -1,5 +1,5 @@
 import { criarElementoMenu } from "./src/menu/menu.js"
-import { criarContainerGeral, criarElementoSobre, criarElementoProjetos} from "./src/home/home.js"
+import { criarContainerGeral, criarElementoSobre, criarElementoProjetos, criarElementoEducacao} from "./src/home/home.js"
 
 
 
@@ -19,3 +19,4 @@ inserirElementoBody(criarContainerGeral())
 
 inserirElementoNoContainerGeral(criarElementoSobre())
 inserirElementoNoContainerGeral(criarElementoProjetos())
+inserirElementoNoContainerGeral(criarElementoEducacao())
