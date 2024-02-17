@@ -8,8 +8,8 @@
 
 /* DEFINIÇÃO DO CARD EDUCAÇÃO*/
 .card__educacao{
-    padding: 100px 0;
-    margin-bottom: 20000px;
+    padding: 0;
+    margin-bottom: 2000px;
     
     width: 100%;
     background-color: var(--background-color-card);
@@ -36,7 +36,6 @@
 }
 
 .nav__educacao li:hover{
-    cursor: pointer;
     border: 5px solid rgba(224, 255, 255, 1);
     border-radius: 2px;
     box-shadow: var(--default-light);
@@ -53,13 +52,56 @@
     
     background-repeat: no-repeat;
     background-position: center center;
+    background-size: cover;
     transition: transform 0.5s ease;
 }
 
-.nav__educacao li:hover .educacao__background{
-    position: relative;
-    transform: scale(1.05); 
-    background-image: url('../public/assets/images/background-item01.jpg');
+.educacao__content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 750px;
+    height: auto;
+    box-sizing: border-box;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    color: var(--color-font-menu);
+}
+
+.educacao__content h1{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.educacao__content .educacao__instituicao{
+    display: flex;
+    justify-content: space-between;
+}
+
+.educacao__content .educacao__instituicao a{
+    text-decoration: none;
+    color: var(--color-font-menu);
+}
+.educacao__content .educacao__instituicao a:hover{
+    color: #fff;
+    text-shadow: var(--default-light);
+}
+
+.educacao__content .educacao__instituicao img{
+    width: 13px;
+    margin-right: 2px;
+    vertical-align: baseline;
+}
+
+.nav__educacao li:hover .educacao__content{
+    background-color: var(--background-color-card);
+    box-shadow: var(--box-shadow-card);
 }
 
 .nav__educacao li:hover .educacao__background::before{
@@ -76,31 +118,50 @@
     background-size: 50px 50px;
 } 
 
-.educacao__content{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 40px;
-}
-
-.educacao__content h1{
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-/*FIM DEFINIÇÃO DA UL*/
-
 /* DEFINIÇÃO ITEM 01*/
 .educacao__item-01 .educacao__background{
     background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item01.jpg');
 }
-/*FIM DEFINIÇÃO ITEM 01*/
 
+.nav__educacao .educacao__item-01:hover .educacao__background{
+    position: relative;
+    transform: scale(1.05); 
+    background-image: url('../public/assets/images/background-item01.jpg');
+}
+
+/*DEFINIÇÃO ITEM 02*/
+.educacao__item-02 .educacao__background{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item02.png');
+}
+
+.nav__educacao .educacao__item-02:hover .educacao__background{
+    position: relative;
+    transform: scale(1.05); 
+    background-image: url('../public/assets/images/background-item02.png');
+}
+
+/*DEFINIÇÃO ITEM 03*/
+.educacao__item-03 .educacao__background{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item03.png');
+}
+
+.nav__educacao .educacao__item-03:hover .educacao__background{
+    position: relative;
+    transform: scale(1.05); 
+    background-image: url('../public/assets/images/background-item03.png');
+}
+
+/*DEFINIÇÃO ITEM 04*/
+.educacao__item-04 .educacao__background{
+    background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item02.png');
+}
+
+.nav__educacao .educacao__item-04:hover .educacao__background{
+    position: relative;
+    transform: scale(1.05); 
+    background-image: url('../public/assets/images/background-item02.png');
+}
+
+/*FIM DEFINIÇÃO DA UL*/
 
 /* FIM DEFINIÇÃO DO CARD EDUCAÇÃO*/

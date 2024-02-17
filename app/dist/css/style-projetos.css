@@ -16,10 +16,10 @@
     justify-content: space-around;
 
     box-sizing: border-box;
-    padding: 100px;
+    padding: 0;
 
-    background-color: var(--background-color-card);
-    box-shadow: var(--box-shadow-card);
+    /* background-color: var(--background-color-card); */
+    /* box-shadow: var(--box-shadow-card); */
 
     width: 100%;
 }
@@ -31,7 +31,7 @@
 /*DEFINIÇÃO DO CARROUSEL*/
 .swiper {
     width: 1200px;
-    height: 600px;
+    height: 450px;
     background-color: var(--background-color-card);
     border-radius: 20px;
     box-shadow: var(--box-shadow-card);

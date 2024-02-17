@@ -56,10 +56,9 @@ export function criarElementoProjetos() {
     sectionProjetos.classList.add('container__projetos');
     cardProjetos.classList.add('card__projetos');
     sectionProjetos.innerHTML = `
-        <h1 class="titulo__secao">Projetos</h1>
+        <h1 class="titulo__secao">Projetos</h1> 
     `;
     cardProjetos.innerHTML = `
-        <h1>Projetos</h1>
         <!-- Slider main container -->
         <div class="swiper">
             <!-- Additional required wrapper -->
@@ -255,9 +254,42 @@ export function criarElementoEducacao() {
                     <p>2021-2023</p>
                 </div>
             </li>
-            <li class="educacao__item-02">2</li>
-            <li class="educacao__item-03">3</li>
-            <li class="educacao__item-04">4</li>
+            <li class="educacao__item-02">
+                <div class="educacao__background">
+                </div>
+                <div class="educacao__content">
+                    <h1>Desenvolva Aplicações Web com Javascript</h1>
+                    <span class="educacao__instituicao">
+                        <p><a href="https://cursos.alura.com.br/user/contato-wagneros/degree-javascript-front-end-687029/certificate" target="_blank"><img src="./public/assets/images/Icon-link-solid.svg"/>Alura</a></p>
+                        <p>2023</p>
+                    </span>
+                    <p>Formação: 8 cursos com carga horária estimada de 62 horas</p>
+                </div>
+            </li>
+            <li class="educacao__item-03">
+                <div class="educacao__background">
+                </div>
+                <div class="educacao__content">
+                    <h1>Melhore Sua Experiência de Desenvolvimento com Typescript</h1>
+                    <span class="educacao__instituicao">
+                        <p><a href="https://cursos.alura.com.br/user/contato-wagneros/degree-typescript-v309729-309729/certificate" target="_blank"><img src="./public/assets/images/Icon-link-solid.svg"/>Alura</a></p>
+                        <p>2023</p>
+                    </span>
+                    <p>Formação: 3 cursos com carga horária estimada em 31 horas.</p>
+                </div>
+            </li>
+            <li class="educacao__item-04">
+                <div class="educacao__background">
+                </div>
+                <div class="educacao__content">
+                    <h1>Desenvolva Aplicações Web em Javascript com Tarefas Concorrentes e Orientadas a Objetos</h1>
+                    <span class="educacao__instituicao">
+                        <p><a href="https://cursos.alura.com.br/user/contato-wagneros/degree-typescript-v309729-309729/certificate" target="_blank"><img src="./public/assets/images/Icon-link-solid.svg"/>Alura</a></p>
+                        <p>2023</p>
+                    </span>
+                    <p>Formação: 3 cursos com carga horária estimada em 23 horas.</p>
+                </div>
+            </li>
         </ul>
     `;
     sectionEducacao.appendChild(cardEducacao);
