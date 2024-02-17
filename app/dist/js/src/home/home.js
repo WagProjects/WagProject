@@ -24,26 +24,17 @@ export function criarElementoSobre() {
             </aside>
             <div class="content">
                 <h1 align="center">Bem-vindo(a)</h1>
-                <p>Meu nome é Wagner, tenho 28 anos, formado em Análise e Desenvolvimento de Sistemas, amante de tecnologia, jogos e cultura geek.
-                Acredito fortemente que a educação e o conhecimento tem o poder de trazer realizações incríveis na área de tecnologia e por isso procuro sempre me desenvolver em minha área de formação. Assim, venho trabalhando em projetos em meu portfólio com o objetivo de agregar conhecimento e estar preparado para os desafios cotidianos de uma equipe de desenvolvimento.</p>
-                <p>Formação 👨‍🎓 ➡ Analise e Desenvolvimento de Sistemas.</p>
-                <p>Hard Skill 🧠 ➡</p>
-                <ul>
-                    <li> JavaScript </li>
+                <p>Sou formado em Análise e Desenvolvimento de sistemas, atuo como desenvolvedor front-end, este é meu portifólio!</p>
+                <p>Algumas tecnologias que tenho atuado em meus projetos:</p>
+                <ul class="content-tecnologias">
                     <li> HTML </li>
                     <li> CSS </li>
-                    <li> GIT </li>
+                    <li> JavaScript </li>
                     <li> TypeScript </li>
                     <li> React </li>
                     <li> React Native </li>
-                </ul>
-                <p>Soft Skill 🧠 ➡</p>
-                <ul>
-                    <li>Comunicação interpessoal </li>
-                    <li>Proatividade </li>
-                    <li>Resolução de conflitos </li>
-                    <li>Capacidade de trabalhar sob pressão </li>
-                    <li>Capacidade analítica </li>
+                    <li> GIT </li>
+                    <li> Figma </li>
                 </ul>
             </div>
         `;
