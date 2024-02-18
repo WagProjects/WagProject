@@ -1,0 +1,194 @@
+/* DEFINIÇÃO CONTAINER SOBRE */
+.container__sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.titulo__secao{
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-bottom: 150px;
+    font-size: 3em;
+    letter-spacing: 5px;
+    color: rgb(224,255,255);
+    text-shadow: var(--default-light);
+}
+
+.titulo__secao::before,
+.titulo__secao::after {
+    content: ""; /* Importante para as pseudo-classes gerarem um conteúdo visual */
+    display: inline-block;
+    width: 500px; /* Largura da imagem (ajuste conforme necessário) */
+    height: 40px; /* Altura da imagem (ajuste conforme necessário) */
+    background-size: contain; /* Ajuste para cobrir a área do contêiner com a imagem */
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.titulo__secao::before {
+    background-image: url('../public/assets/images/flecha3.png');
+    top: 8px;
+    left: -405px;
+}
+
+.titulo__secao::after {
+    background-image: url('../public/assets/images/flecha3.png');
+    top: 8px;
+    right: -400px;
+    transform: scalex(-1);
+}
+
+#imagem__sobre, #imagem__projetos{
+    margin: 150px 10%;
+}
+
+/* DEFINIÇAO CARD SOBRE*/
+.card__sobre{
+    display: grid;
+    grid-template-columns: 1fr 2fr; /* Duas colunas com tamanhos iguais */
+    align-items: center;
+    gap: 20px; /* Espaço de 20 pixels entre as colunas */
+    padding: 50px;
+
+    max-width: 1080px;
+    min-width: 700px;
+    
+    background-color: var(--background-color-card);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow-card);
+    transition: box-shadow 1s ease-in-out, background-color 1s;
+}
+
+.card__sobre:hover{
+    box-shadow: var(--box-light-card);
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url(../public/assets/images/Estrelas02.png);
+    background-size: contain; /*contain: A imagem é dimensionada para caber totalmente dentro do contêiner, mantendo a proporção original.*/
+    
+}
+
+/* FIM DEFINIÇÃO CARD SOBRE*/
+
+/* DEFINIÇÃO ASIDE */
+.card__sobre aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    min-width: 280px;
+    height: 550px;
+    padding: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    /* box-shadow: var(--box-shadow-card); */
+    /*background-color: rgba(0, 0, 0, 0.05);*/
+    transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.card__sobre aside ul{
+    list-style: none;
+}
+
+.card__sobre aside li{
+    text-align: left;
+    margin: 20px 0;
+}
+
+.card__sobre aside li.meu__nome{
+    text-align: center;
+    font-size: 2em;
+}
+
+.card__sobre aside li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.card__sobre aside li img{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.card__sobre aside li img#icon__localiza{
+    width: 16px;
+}
+
+.card__sobre aside:hover{
+    /* background-color: rgba(0, 0, 0, 1); */
+    background: linear-gradient(171deg, rgba(24,20,50,0.3) 0%, rgba(0,0,0,0.5) 49%, rgba(74,75,139,0.3) 100%);
+    box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
+    text-shadow: var(--default-light);
+}
+
+.card__sobre aside:hover #foto__perfil{
+    box-shadow: 0px -1px 10px rgba(112,128,144, 1);;
+}
+
+#foto__perfil{
+    margin: 20px;
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid var(--color-font-menu);
+}
+
+/* FIM DEFINIÇÃO ASIDE */
+
+/* DEFINIÇÃO CONTENT */
+.card__sobre .content{
+    justify-content: flex-start;
+    box-sizing: border-box;
+    height: 550px;
+    margin: 5px;
+    padding: 30px;
+    border-radius: 15px;
+
+    font-size: 1.25em;
+
+    transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+
+.card__sobre .content p{
+    margin-bottom: 10px;
+}
+
+.card__sobre .content:hover{
+    /* background-color: var(--background-color-card); */
+    box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
+    /* text-shadow: var(--default-light); */
+}
+
+.card__sobre .content h1{
+    font-size: var(--tamanho-font-titulo-card);
+    margin: 10px 0 80px 0;
+}
+
+.card__sobre .content .content-tecnologias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.card__sobre .content ul{
+    margin-top: 30px;
+}
+
+.card__sobre .content ul li{
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+    width: 125px;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    border: 1px solid var(--color-font-menu);
+}
+
+/* FIM DEFINIÇÃO CONTENT */
+/* FINAL DEFINIÇÃO CONTAINER SOBRE */

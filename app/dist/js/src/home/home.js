@@ -9,6 +9,9 @@ export function criarElementoSobre() {
     sectionSobre.classList.add('container__sobre');
     cardSobre.classList.add('card__sobre');
     sectionSobre.innerHTML = `
+        <video class="video__intro" loop="loop" muted="muted" autoplay>
+            <source src="../public/assets/images/Video-intro.mp4" type="video/mp4">
+        </video>
         <h1 class="titulo__secao">Sobre</h1>
     `;
     cardSobre.innerHTML = `

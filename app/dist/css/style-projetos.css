@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
     color: #fff;
-    margin: 100px 0;
+    margin-bottom: 100px;
 }
 
 .card__projetos{
@@ -29,7 +29,7 @@
 }
 
 /*DEFINIÇÃO DO CARROUSEL*/
-.swiper {
+.swiper1 {
     width: 1200px;
     height: 450px;
     background-color: var(--background-color-card);
@@ -44,7 +44,7 @@
     margin: 20px;
 }
 
-.swiper-wrapper div {
+.swiper-wrapper-projetos div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,13 +52,13 @@
     padding: 10px;
 }
 
-.swiper-wrapper .swiper-player img{
+.swiper-wrapper-projetos .swiper-player img{
     width: 640px;
     height: 340px;
     border-radius: 10px;
 }
 
-.swiper-wrapper .swiper-slide aside{
+.swiper-wrapper-projetos .swiper-slide-projetos aside{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -73,32 +73,32 @@
     box-shadow: var(--box-shadow-card);
 }
 
-.swiper-wrapper .swiper-slide aside .aside-content{
+.swiper-wrapper-projetos .swiper-slide-projetos aside .aside-content{
     display: flex;
     flex-direction: column;
 }
 
-.swiper-wrapper .swiper-slide aside .aside-content h1{
+.swiper-wrapper-projetos .swiper-slide-projetos aside .aside-content h1{
     text-transform: uppercase;
     text-align: center;
     margin: 10px 0 20px 0;
 }
 
-.swiper-wrapper .swiper-slide aside .aside-content p{
+.swiper-wrapper-projetos .swiper-slide-projetos aside .aside-content p{
     margin: 2px;
 }
 
-.swiper-wrapper .swiper-slide aside .aside-link{
+.swiper-wrapper-projetos .swiper-slide-projetos aside .aside-link{
     display: flex;
     flex-direction: column;
     padding: 0;
 }
 
-.swiper-wrapper .swiper-slide aside .aside-link div{
+.swiper-wrapper-projetos .swiper-slide-projetos aside .aside-link div{
     padding: 0;
 }
 
-.swiper-wrapper .swiper-slide aside .aside-link span{
+.swiper-wrapper-projetos .swiper-slide-projetos aside .aside-link span{
     vertical-align: middle;
     padding: 10px;
     margin: 5px;
@@ -106,37 +106,31 @@
     border-radius: 5px;
 }
 
-.swiper-wrapper .swiper-slide aside span a{
+.swiper-wrapper-projetos .swiper-slide-projetos aside span a{
     text-decoration: none;
     color: #fff;
 }
 
-.swiper-wrapper .swiper-slide .icon-github{
+.swiper-wrapper-projetos .swiper-slide-projetos .icon-github{
     width: 25px;
     height: 25px;
 }
 
-.swiper-wrapper div aside span:hover,
-.swiper-wrapper div aside span a:hover{
+.swiper-wrapper-projetos div aside span:hover,
+.swiper-wrapper-projetos div aside span a:hover{
     background: var(--background-color-card);
     color: #fff;
     text-shadow: var(--default-light);
 }
 
-.swiper-wrapper div aside span img{
+.swiper-wrapper-projetos div aside span img{
     vertical-align: bottom;
     width: 20px;
     height: 20px;
     margin: 0px;
 }
 
-/* .swiper-wrapper div aside a img{
-    width: 20px;
-    height: 20px;
-    margin: 5px;
-} */
-
-.swiper-scrollbar {
+.swiper-scrollbar-projetos {
     display: none;
 }
 /*FIM DEFINIÇÃO DO CARROUSEL*/
