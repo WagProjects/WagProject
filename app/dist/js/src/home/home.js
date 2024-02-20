@@ -19,8 +19,8 @@ export function criarElementoSobre() {
                 <img src="./public/assets/images/Ultima.jpg" alt="Perfil" id="foto__perfil" />
                 <ul>
                     <li class="meu__nome">Wagner Oliveira</li>
-                    <li><img src="./public/assets/images/Icon-cap.svg" alt="Icone de Cap de Formando" />Desenvolvedor Front-End</li>
-                    <li><img src="./public/assets/images/Icon-email.svg" alt="Iconte de Email" /><a href="mailto:contato-wagneros@outlook.com">contato-wagneros@outlook.com</a></li>
+                    <li><img src="./public/assets/images/icons/Icon-cap.svg" alt="Icone de Cap de Formando" />Desenvolvedor Front-End</li>
+                    <li><img src="./public/assets/images/icons/Icon-email.svg" alt="Iconte de Email" /><a href="mailto:contato-wagneros@outlook.com">contato-wagneros@outlook.com</a></li>
                     <li><img src="./public/assets/images/Icon-whatsapp.svg" alt="Icone de Contato" /><a href="https://wa.me/5521992316655" target="_blank">+55 21 992316655</a></li>
                     <li><img id="icon__localiza" src="./public/assets/images/Icon-location-dot-solid.svg" alt="Icone de Localização" /><a href="https://wa.me/5521992316655" target="_blank">Rio de Janeiro, RJ - Brasil</a></li>
                 </ul>
@@ -70,16 +70,16 @@ export function criarElementoProjetos() {
                         </div>
                         <div class="aside-link">
                             <div>
-                                <span><img src="./public/assets/images/Icon-css3-alt.svg" /> HTML</span>
-                                <span><img src="./public/assets/images/Icon-html5.svg" /> CSS</span>
+                                <span><img src="./public/assets/images/icons/Icon-css3-alt.svg" /> HTML</span>
+                                <span><img src="./public/assets/images/icons/Icon-html5.svg" /> CSS</span>
                                 <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swiper/swiper-original.svg" /> Swiper JS</span>
                             </div>
                             <div>
                                 <span>
-                                    <a href="https://wagprojects.github.io/alura-books/" target="_blank"><img src="./public/assets/images/Icon-globe-solid.svg" /> Link</a>
+                                    <a href="https://wagprojects.github.io/alura-books/" target="_blank"><img src="./public/assets/images/icons/Icon-globe-solid.svg" /> Link</a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/WagProjects/alura-books" target="_blank"><img class="icon-github" src="./public/assets/images/Icon-square-github.svg" /> Repositório</a>
+                                    <a href="https://github.com/WagProjects/alura-books" target="_blank"><img class="icon-github" src="./public/assets/images/icons/Icon-square-github.svg" /> Repositório</a>
                                 </span>
                             </div>
                         </div>

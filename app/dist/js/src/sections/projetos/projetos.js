@@ -24,16 +24,16 @@ export function criarElementoProjetos() {
                         </div>
                         <div class="aside-link">
                             <div>
-                                <span><img src="./public/assets/images/Icon-css3-alt.svg" /> HTML</span>
-                                <span><img src="./public/assets/images/Icon-html5.svg" /> CSS</span>
-                                <span><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swiper/swiper-original.svg" /> Swiper JS</span>
+                                <span><img src="./public/assets/images/icons/Icon-css3-alt.svg" /> HTML</span>
+                                <span><img src="./public/assets/images/icons/Icon-html5.svg" /> CSS</span>
+                                <span><i class="devicon-swiper-original"></i> Swiper JS</span>
                             </div>
                             <div>
                                 <span>
-                                    <a href="https://wagprojects.github.io/alura-books/" target="_blank"><img src="./public/assets/images/Icon-globe-solid.svg" /> Link</a>
+                                    <a href="https://wagprojects.github.io/alura-books/" target="_blank"><img src="./public/assets/images/icons/Icon-globe-solid.svg" /> Link</a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/WagProjects/alura-books" target="_blank"><img class="icon-github" src="./public/assets/images/Icon-square-github.svg" /> Repositório</a>
+                                    <a href="https://github.com/WagProjects/alura-books" target="_blank"><img class="icon-github" src="./public/assets/images/icons/Icon-square-github.svg" /> Repositório</a>
                                 </span>
                             </div>
                         </div>
@@ -50,15 +50,15 @@ export function criarElementoProjetos() {
                         </div>
                         <div class="aside-link">
                             <div>
-                                <span><img src="./public/assets/images/Icon-css3-alt.svg" /> HTML</span>
-                                <span><img src="./public/assets/images/Icon-html5.svg" /> CSS</span>
+                                <span><img src="./public/assets/images/icons/Icon-css3-alt.svg" /> HTML</span>
+                                <span><img src="./public/assets/images/icons/Icon-html5.svg" /> CSS</span>
                             </div>
                             <div>
                                 <span>
-                                    <a href="https://wagprojects.github.io/Project-Museu/" target="_blank"><img src="./public/assets/images/Icon-globe-solid.svg" /> Link</a>
+                                    <a href="https://wagprojects.github.io/Project-Museu/" target="_blank"><img src="./public/assets/images/icons/Icon-globe-solid.svg" /> Link</a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/WagProjects/Project-Museu" target="_blank"><img class="icon-github" src="./public/assets/images/Icon-square-github.svg" /> Repositório</a>
+                                    <a href="https://github.com/WagProjects/Project-Museu" target="_blank"><img class="icon-github" src="./public/assets/images/icons/Icon-square-github.svg" /> Repositório</a>
                                 </span>
                             </div>
                         </div>
@@ -77,15 +77,15 @@ export function criarElementoProjetos() {
                         </div>
                         <div class="aside-link">
                             <div>
-                                <span><img src="./public/assets/images/Icon-css3-alt.svg" /> HTML</span>
-                                <span><img src="./public/assets/images/Icon-html5.svg" /> CSS</span>
+                                <span><img src="./public/assets/images/icons/Icon-css3-alt.svg" /> HTML</span>
+                                <span><img src="./public/assets/images/icons/Icon-html5.svg" /> CSS</span>
                             </div>
                             <div>
                                 <span>
-                                    <a href="https://wagprojects.github.io/Projeto-Spotify/" target="_blank"><img src="./public/assets/images/Icon-globe-solid.svg" /> Link</a>
+                                    <a href="https://wagprojects.github.io/Projeto-Spotify/" target="_blank"><img src="./public/assets/images/icons/Icon-globe-solid.svg" /> Link</a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/WagProjects/Projeto-Spotify" target="_blank"><img class="icon-github" src="./public/assets/images/Icon-square-github.svg" /> Repositório</a>
+                                    <a href="https://github.com/WagProjects/Projeto-Spotify" target="_blank"><img class="icon-github" src="./public/assets/images/icons/Icon-square-github.svg" /> Repositório</a>
                                 </span>
                             </div>
                         </div>
@@ -103,15 +103,15 @@ export function criarElementoProjetos() {
                         </div>
                         <div class="aside-link">
                             <div>
-                                <span><img src="./public/assets/images/Icon-css3-alt.svg" /> HTML</span>
-                                <span><img src="./public/assets/images/Icon-html5.svg" /> CSS</span>
+                                <span><img src="./public/assets/images/icons/Icon-css3-alt.svg" /> HTML</span>
+                                <span><img src="./public/assets/images/icons/Icon-html5.svg" /> CSS</span>
                             </div>
                             <div>
                                 <span>
-                                    <a href="https://wagprojects.github.io/Culturama/#" target="_blank"><img src="./public/assets/images/Icon-globe-solid.svg" /> Link</a>
+                                    <a href="https://wagprojects.github.io/Culturama/#" target="_blank"><img src="./public/assets/images/icons/Icon-globe-solid.svg" /> Link</a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/WagProjects/Culturama" target="_blank"><img class="icon-github" src="./public/assets/images/Icon-square-github.svg" /> Repositório</a>
+                                    <a href="https://github.com/WagProjects/Culturama" target="_blank"><img class="icon-github" src="./public/assets/images/icons/Icon-square-github.svg" /> Repositório</a>
                                 </span>
                             </div>
                         </div>
@@ -128,16 +128,16 @@ export function criarElementoProjetos() {
                         </div>
                         <div class="aside-link">
                             <div>
-                                <span><img src="./public/assets/images/Icon-css3-alt.svg" /> HTML</span>
-                                <span><img src="./public/assets/images/Icon-html5.svg" /> CSS</span>
-                                <span><img src="./public/assets/images/Icon-js.svg" /> JavaScript</span>
+                                <span><img src="./public/assets/images/icons/Icon-css3-alt.svg" /> HTML</span>
+                                <span><img src="./public/assets/images/icons/Icon-html5.svg" /> CSS</span>
+                                <span><img src="./public/assets/images/icons/Icon-js.svg" /> JavaScript</span>
                             </div>
                             <div>
                                 <span>
-                                    <a href="https://wagprojects.github.io/Monibank/index.html" target="_blank"><img src="./public/assets/images/Icon-globe-solid.svg" /> Link</a>
+                                    <a href="https://wagprojects.github.io/Monibank/index.html" target="_blank"><img src="./public/assets/images/icons/Icon-globe-solid.svg" /> Link</a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/WagProjects/Monibank" target="_blank"><img class="icon-github" src="./public/assets/images/Icon-square-github.svg" /> Repositório</a>
+                                    <a href="https://github.com/WagProjects/Monibank" target="_blank"><img class="icon-github" src="./public/assets/images/icons/Icon-square-github.svg" /> Repositório</a>
                                 </span>
                             </div>
                         </div>
@@ -155,15 +155,15 @@ export function criarElementoProjetos() {
                         </div>
                         <div class="aside-link">
                             <div>
-                                <span><img src="./public/assets/images/Icon-css3-alt.svg" /> HTML</span>
-                                <span><img src="./public/assets/images/Icon-html5.svg" /> CSS</span>
+                                <span><img src="./public/assets/images/icons/Icon-css3-alt.svg" /> HTML</span>
+                                <span><img src="./public/assets/images/icons/Icon-html5.svg" /> CSS</span>
                             </div>
                             <div>
                                 <span>
-                                    <a href="https://wagprojects.github.io/ProjetoFinans/" target="_blank"><img src="./public/assets/images/Icon-globe-solid.svg" /> Link</a>
+                                    <a href="https://wagprojects.github.io/ProjetoFinans/" target="_blank"><img src="./public/assets/images/icons/Icon-globe-solid.svg" /> Link</a>
                                 </span>
                                 <span>
-                                    <a href="https://github.com/WagProjects/ProjetoFinans" target="_blank"><img class="icon-github" src="./public/assets/images/Icon-square-github.svg" /> Repositório</a>
+                                    <a href="https://github.com/WagProjects/ProjetoFinans" target="_blank"><img class="icon-github" src="./public/assets/images/icons/Icon-square-github.svg" /> Repositório</a>
                                 </span>
                             </div>
                         </div>

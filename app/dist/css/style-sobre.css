@@ -16,7 +16,7 @@
     margin-bottom: 150px;
     font-size: 3em;
     letter-spacing: 5px;
-    color: rgb(224,255,255);
+    color: var(--color-star-light);
     text-shadow: var(--default-light);
 }
 
@@ -59,16 +59,15 @@
     max-width: 1080px;
     min-width: 700px;
     
-    background-color: var(--background-color-card);
+    /* background-color: var(--background-color-card); */
     border-radius: 20px;
-    box-shadow: var(--box-shadow-card);
-    transition: box-shadow 1s ease-in-out, background-color 1s;
+    /* box-shadow: var(--box-shadow-card); */
+    transition: box-shadow 0.5s ease-in-out, background-color 0.5s ease;
 }
 
 .card__sobre:hover{
     box-shadow: var(--box-light-card);
-    background-color: rgba(0, 0, 0, 0.6);
-    background-image: url(../public/assets/images/Estrelas02.png);
+    background: linear-gradient(171deg, rgba(24,20,50,0.3) 0%, rgba(0,0,0,0.5) 49%, rgba(74,75,139,0.3) 100%);
     background-size: contain; /*contain: A imagem é dimensionada para caber totalmente dentro do contêiner, mantendo a proporção original.*/
     
 }
@@ -86,18 +85,22 @@
     padding: 10px;
     border-radius: 15px;
     box-sizing: border-box;
-    /* box-shadow: var(--box-shadow-card); */
-    /*background-color: rgba(0, 0, 0, 0.05);*/
-    transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out;
+    transition: box-shadow 1s ease-in-out, background-color 1s ease-in-out;
 }
 
 .card__sobre aside ul{
     list-style: none;
 }
 
-.card__sobre aside li{
+.card__sobre aside ul li{
     text-align: left;
     margin: 20px 0;
+}
+
+.card__sobre aside ul li:hover,
+.card__sobre aside ul li:hover a{
+    text-shadow: var(--default-light);
+    color: var(--color-star-light);
 }
 
 .card__sobre aside li.meu__nome{
@@ -121,14 +124,12 @@
 }
 
 .card__sobre aside:hover{
-    /* background-color: rgba(0, 0, 0, 1); */
     background: linear-gradient(171deg, rgba(24,20,50,0.3) 0%, rgba(0,0,0,0.5) 49%, rgba(74,75,139,0.3) 100%);
-    box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
-    text-shadow: var(--default-light);
+    box-shadow: var(--box-shadow-card);
 }
 
 .card__sobre aside:hover #foto__perfil{
-    box-shadow: 0px -1px 10px rgba(112,128,144, 1);;
+    box-shadow: 0px -1px 10px rgba(224,255,255, 1);
 }
 
 #foto__perfil{
@@ -142,31 +143,45 @@
 
 /* DEFINIÇÃO CONTENT */
 .card__sobre .content{
-    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     height: 550px;
     margin: 5px;
     padding: 30px;
     border-radius: 15px;
 
-    font-size: 1.25em;
+    font-size: 1.5em;
 
-    transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out;
+    /* transition: background-color 1s ease-in-out, box-shadow 1s ease-in-out; */
+}
+
+/* .card__sobre .content p{
+    margin-bottom: 10px;
+} */
+
+.card__sobre .content:hover{
+    /* background-color: var(--background-color-card);
+    box-shadow: 0 0 80px rgb(255, 255, 255, 0.1); */
+} 
+
+.card__sobre .content h1{
+    font-family: var(--font-primaria);
+    font-size: var(--tamanho-font-titulo-card);
+    text-transform: uppercase;
+    margin: 10px 0 80px 0;
 }
 
 .card__sobre .content p{
-    margin-bottom: 10px;
+    font-family: var(--font-secundaria);
 }
 
-.card__sobre .content:hover{
-    /* background-color: var(--background-color-card); */
-    box-shadow: 0 0 80px rgb(255, 255, 255, 0.1);
-    /* text-shadow: var(--default-light); */
-}
-
-.card__sobre .content h1{
-    font-size: var(--tamanho-font-titulo-card);
-    margin: 10px 0 80px 0;
+.card__sobre .content:hover p,
+.card__sobre .content:hover h1{
+    text-shadow: var(--default-light);
+    color: var(--color-star-light);
 }
 
 .card__sobre .content .content-tecnologias{
@@ -183,11 +198,32 @@
 .card__sobre .content ul li{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 0.75em;
     width: 125px;
     padding: 15px 10px;
     margin-bottom: 20px;
     border: 1px solid var(--color-font-menu);
+
+    font-size: 0.6em;
+}
+
+.card__sobre .content ul li:hover{
+    background: var(--background-color-card);
+    text-shadow: var(--default-light);
+    color: var(--color-star-light);
+}
+
+.card__sobre .icon-tecnoligias{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.devicon-plain{
+    width: 23px;
+    height: 23px;
+    margin-right: 5px;
 }
 
 /* FIM DEFINIÇÃO CONTENT */
