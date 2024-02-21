@@ -99,25 +99,59 @@ export function criarElementoEducacao(){
         <div class="conteudo__extra-educacao-conteudo-recente">
             <ul class="conteudo__extra-educacao-lista">
                 <li>
-                    <p class="lista-curso">Curso 1</p>
-                    <p class="lista-data">12/12/2012</p>
+                    <p class="lista-curso javascript"><a href="https://cursos.alura.com.br/certificate/14e45e52-1343-4768-a48f-450c10df91a7" target="_blank">Javascript: De Padrões A Uma Abordagem Funcional</a></p>
+                    <p class="lista-data">30/01/2024</p>
                 </li>
-                <li>Conteudo 2</li>
-                <li>Conteudo 3</li>
-                <li>Conteudo 4</li>
-                <li>Conteudo 5</li>
-                <li>Conteudo 6</li>
+                <li>
+                    <p class="lista-curso javascript"><a href="https://cursos.alura.com.br/certificate/248b629c-c518-4a3a-9ab7-0a66ae83d0fc" target="_blank">Javascript: Consumindo E Tratando Dados De Uma API</a></p>
+                    <p class="lista-data">20/12/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso javascript"><a href="https://cursos.alura.com.br/certificate/04605247-d029-4c2e-a224-e56da0d43daf" target="_blank">Javascript: explorando A Manipulação De Elementos E Da Localstorage</a></p>
+                    <p class="lista-data">15/12/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso git">
+                        <a href="https://www.dio.me/certificate/3988733A/share" target="_blank">Versionamento de Código com Git e GitHub</a>
+                    </p>
+                    <p class="lista-data">12/12/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso react"><a href="https://cursos.alura.com.br/certificate/a315cba6-9690-4a57-a91d-457956a162f5" target="_blank">React Native: Utilizando E Criando Hooks</a></p>
+                    <p class="lista-data">08/12/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso react"><a href="https://cursos.alura.com.br/certificate/0d5a55d7-5827-4a21-893e-68e260d940f5" target="_blank">React Native: Criando Um App</a></p>
+                    <p class="lista-data">04/12/2023</p>
+                </li>
             </ul>
         </div>
         <div class="conteudo__extra-educacao-conteudo-outro">
             <ul class="conteudo__extra-educacao-lista">
-                <li>1 Conteudo</li>
-                <li>2 Conteudo</li>
-                <li>3 Conteudo</li>
-                <li>4 Conteudo</li>
-                <li>5 Conteudo</li>
-                <li>6 Conteudo</li>
+                <li>
+                    <p class="lista-curso react"><a href="https://cursos.alura.com.br/certificate/8aa71ab6-3697-452b-b525-36e534230892" target="_blank">React: desenvolvendo com javascript</a></p>
+                    <p class="lista-data">29/11/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso javascript"><a href="https://cursos.alura.com.br/certificate/825c7912-86ce-4765-8c3d-faa67ffdaf1b" target="_blank">Javascript na web: armazenando dados no navegador</a></p>
+                    <p class="lista-data">27/10/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso javascript"><a href="https://cursos.alura.com.br/certificate/bfa66f2a-75da-439b-b09c-347531b283e3" target="_blank">Javascript: manipulando elementos no dom</a></p>
+                    <p class="lista-data">23/10/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso css"><a href="https://cursos.alura.com.br/certificate/b01bfe8d-aa41-4103-9e94-82da92c2a7c8" target="_blank">Praticando CSS: grid e flexbox</a></p>
+                    <p class="lista-data">02/10/2023</p>
+                </li>
+                <li>
+                    <p class="lista-curso html"><a href="https://cursos.alura.com.br/certificate/fc7cecb3-c205-4d42-b6d9-3b121587a750" target="_blank">HTML e CSS: responsividade com mobile-first</a></p>
+                    <p class="lista-data">28/09/2023</p>
+                </li>
             </ul>
+            <span>
+                <a href="https://www.linkedin.com/in/wagner-oliveira-b3959a170/details/certifications/" target="_blank"><img src="./public/assets/images/icons/Icon-plus-solid.svg"/> Mais</a>
+            </span>
         </div>
     </div>
     `

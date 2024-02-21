@@ -21,7 +21,7 @@ export function criarElementoSobre() {
             <div class="content">
                 <h1 align="center">Bem-vindo(a)</h1>
                 <p>Atuo como desenvolvedor front-end.</p>
-                <p>Este é meu portifólio!</p>
+                <p>Este é meu portifólio de projetos pessoais!</p>
                 <p>Algumas tecnologias que tenho atuado em meus projetos:</p>
                 <ul class="content-tecnologias">
                     <li> <img src="./public/assets/images/icons/Icon-html5.svg" class="icon-tecnoligias"/> HTML </li>
