@@ -3,6 +3,7 @@ export function criarElementoProjetos(){
     const cardProjetos = document.createElement('div')
 
     sectionProjetos.classList.add('container__projetos')
+    sectionProjetos.id = 'section3'
     cardProjetos.classList.add('card__projetos')
     
     sectionProjetos.innerHTML = `

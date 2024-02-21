@@ -1,6 +1,7 @@
 export function criarElementoEducacao(){
     const sectionEducacao = document.createElement('section')
     sectionEducacao.classList.add('container__educacao')
+    sectionEducacao.id = 'section4'
 
     const cardEducacao = document.createElement('div')
     cardEducacao.classList.add('card__educacao')
@@ -71,28 +72,106 @@ export function criarElementoEducacao(){
 
     cardExtraEducacao.innerHTML = `
     <div class="swiper swiper2">
-            <div class="swiper-wrapper swiper-wrapper2">
-                <div class="swiper-slide swiper-slide2">Slide 1</div>
-                <div class="swiper-slide swiper-slide2">Slide 2</div>
-                <div class="swiper-slide swiper-slide2">
-                    <img src="./public/assets/images/fokus.jpeg" />
-                </div>
-                <div class="swiper-slide swiper-slide2">
-                    <img src="./public/assets/images/fokus.jpeg" />
-                </div>
-                <div class="swiper-slide swiper-slide2">
-                    <img src="./public/assets/images/fokus.jpeg" />
-                </div>
+        <div class="swiper-wrapper swiper-wrapper2">
+            <div class="swiper-slide swiper-slide2">Slide 1</div>
+            <div class="swiper-slide swiper-slide2">Slide 2</div>
+            <div class="swiper-slide swiper-slide2">
+                <img src="./public/assets/images/fokus.jpeg" />
             </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination swiper-pagination2"></div>
+            <div class="swiper-slide swiper-slide2">
+                <img src="./public/assets/images/fokus.jpeg" />
+            </div>
+            <div class="swiper-slide swiper-slide2">
+                <img src="./public/assets/images/fokus.jpeg" />
+            </div>
+            <div class="swiper-slide swiper-slide2">Slide 6</div>
         </div>
-        <div class="conteudo__extra-educacao">Teste</div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination swiper-pagination2"></div>
+    </div>
+    <div class="conteudo__extra-educacao">
+        <nav class="conteudo__extra-educacao-nav">
+            <ul>
+                <li class="conteudo-extra-item-01">Mais Recentes</li>
+                <li class="conteudo-extra-item-02">Outros</li>
+            </ul>
+        </nav>
+        <div class="conteudo__extra-educacao-conteudo-recente">
+            <ul class="conteudo__extra-educacao-lista">
+                <li>
+                    <p class="lista-curso">Curso 1</p>
+                    <p class="lista-data">12/12/2012</p>
+                </li>
+                <li>Conteudo 2</li>
+                <li>Conteudo 3</li>
+                <li>Conteudo 4</li>
+                <li>Conteudo 5</li>
+                <li>Conteudo 6</li>
+            </ul>
+        </div>
+        <div class="conteudo__extra-educacao-conteudo-outro">
+            <ul class="conteudo__extra-educacao-lista">
+                <li>1 Conteudo</li>
+                <li>2 Conteudo</li>
+                <li>3 Conteudo</li>
+                <li>4 Conteudo</li>
+                <li>5 Conteudo</li>
+                <li>6 Conteudo</li>
+            </ul>
+        </div>
+    </div>
     `
 
+    /*SCRIPT REFERENTE A TROCA DE SEÇÃO 'MAIS RECENTE' NO CONTEUDO EXTRACURRICULAR*/
+    document.addEventListener('DOMContentLoaded', function () {
+        var conteudoExtraItem1 = document.querySelector('.conteudo-extra-item-01');
+        var conteudoExtraItem2 = document.querySelector('.conteudo-extra-item-02');
+        var conteudoRecente = document.querySelector('.conteudo__extra-educacao-conteudo-recente');
+        var conteudoOutro = document.querySelector('.conteudo__extra-educacao-conteudo-outro');
+
+        if (conteudoExtraItem1) {
+            conteudoExtraItem1.addEventListener('click', function() {
+                if (conteudoRecente) {
+                    // Mostrar 'Mais Recente' e ocultar conteúdo 'Outros'
+                    (conteudoRecente as HTMLElement).style.display = 'block';
+                    (conteudoOutro as HTMLElement).style.display = 'none';
+                }
+
+                // Adicionar classe "active" ao botão 'Mais Recentes'
+                if(conteudoExtraItem1){
+                    conteudoExtraItem1.classList.add('active');
+                }
+                
+                // Remover classe "active" do outro botão
+                if (conteudoExtraItem2) {
+                    conteudoExtraItem2.classList.remove('active');
+                }
+            });
+        }
+        if (conteudoExtraItem2 && conteudoRecente && conteudoOutro) {
+            conteudoExtraItem2.addEventListener('click', function () {
+                if (conteudoOutro) {
+                    // Mostrar conteúdo 'Outros' e ocultar 'Mais Recente'
+                    (conteudoRecente as HTMLElement).style.display = 'none';
+                    (conteudoOutro as HTMLElement).style.display = 'block';
+                }
+
+                // Adicionar classe "active" ao botão 'Outros'
+                if(conteudoExtraItem2){
+                    conteudoExtraItem2.classList.add('active');
+                }
+
+                // Remover classe "active" do outro botão 'Mais Recentes'
+                if (conteudoExtraItem1) {
+                    conteudoExtraItem1.classList.remove('active');
+                }
+            });
+        }
+    });
+    
     sectionEducacao.appendChild(cardEducacao)
     sectionEducacao.appendChild(tituloExtraEducacao)
     sectionEducacao.appendChild(cardExtraEducacao)
-
+    
     return sectionEducacao
 }

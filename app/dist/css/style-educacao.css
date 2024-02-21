@@ -178,6 +178,7 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    box-shadow: var(--box-shadow-card);
 }
 
 /*DEFINIÇÃO DO CARROUSEL*/
@@ -215,7 +216,64 @@ span.swiper-pagination-bullet-active {
 
 /*FIM DEFINIÇÃO DO CARROUSEL*/
 
+/*INICIO CONTEUDO EXTRACURRICULAR*/
+/*INICIO CONTEUDO EXTRACURRICULAR NAV*/
+
 .conteudo__extra-educacao{
+    display: flex;
+    flex-direction: column;
     width: 50%;
+    height: 100%;
+    padding: 0 15px;
+    color: var(--color-font-menu);
 }
-/* FIM CARD EXTRAEDUCAÇÃO */
+
+.conteudo__extra-educacao .conteudo__extra-educacao-nav{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+    font-size: 1.20em;
+}
+
+.conteudo__extra-educacao .conteudo__extra-educacao-nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.conteudo__extra-educacao .conteudo__extra-educacao-nav ul li{
+    padding: 20px;
+}
+.conteudo__extra-educacao .conteudo__extra-educacao-nav ul li:hover,
+.conteudo__extra-educacao .conteudo__extra-educacao-nav ul li.active{
+    cursor: pointer;
+    color: var(--color-star-light);
+    text-shadow: var(--default-light);
+    box-shadow: 0 2px 0 0 var(--color-star-light);
+}
+.conteudo__extra-educacao .conteudo__extra-educacao-conteudo-outro{
+    display: none;
+}
+/*FIM CONTEUDO EXTRACURRICULAR NAV*/
+/*INICIO CONTEUDO EXTRACURRICULAR LISTA*/
+.conteudo__extra-educacao-lista{
+    list-style: none;
+}
+.conteudo__extra-educacao-lista li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.conteudo__extra-educacao-lista li .lista-data{
+    font-size: 0.75em;
+}
+.conteudo__extra-educacao-lista li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: var(--color-star-light);
+    text-shadow: var(--default-light);
+}
+/*FIM CONTEUDO EXTRACURRICULAR LISTA*/
+
+/*FIM INICIO CONTEUDO EXTRACURRICULAR*/

@@ -2,6 +2,7 @@ export function criarElementoSobre() {
     const sectionSobre = document.createElement('section');
     const cardSobre = document.createElement('div');
     sectionSobre.classList.add('container__sobre');
+    sectionSobre.id = 'section2';
     cardSobre.classList.add('card__sobre');
     sectionSobre.innerHTML = `
         <h1 class="titulo__secao">Sobre</h1>
