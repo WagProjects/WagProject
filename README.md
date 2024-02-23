@@ -1,6 +1,6 @@
 <div align="center">
     <h1>
-        Meu Portifólio 
+        Meu Portfólio 
     </h1>
 </div>
 
