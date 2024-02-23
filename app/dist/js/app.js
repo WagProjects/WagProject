@@ -4,6 +4,7 @@ import { criarElementoPoster } from "./src/sections/poster/poster.js";
 import { criarElementoSobre } from "./src/sections/sobre/sobre.js";
 import { criarElementoProjetos } from "./src/sections/projetos/projetos.js";
 import { criarElementoEducacao } from "./src/sections/educacao/educacao.js";
+import { criarElementoContato } from "./src/sections/contato/contato.js";
 function inserirElementoBody(elemento) {
     const menu = document.querySelector("body");
     menu.appendChild(elemento);
@@ -18,3 +19,4 @@ inserirElementoNoContainerGeral(criarElementoPoster());
 inserirElementoNoContainerGeral(criarElementoSobre());
 inserirElementoNoContainerGeral(criarElementoProjetos());
 inserirElementoNoContainerGeral(criarElementoEducacao());
+inserirElementoNoContainerGeral(criarElementoContato());

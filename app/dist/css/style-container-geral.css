@@ -41,6 +41,6 @@ body{
     
     --box-shadow-card: 0px 0px 50px 5px rgba(0, 0, 0, 0.5);
     --box-light-card: 0px 0px 20px 5px rgba(255, 255, 255, 0.5);
-    --default-light: 0px -1px 10px rgba(255, 255, 255, 0.9);
+    --default-light: 0px -1px 10px rgba(224, 255, 255, 0.9);
 }
 /* FINAL DAS DEFINIÇÕES DE PADRÕES */

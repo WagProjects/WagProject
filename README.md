@@ -1,6 +1,6 @@
 <div align="center">
     <h1>
-        Meu Portifólio 
+        Meu Portfólio 
     </h1>
 </div>
 
@@ -81,9 +81,9 @@ Dentro do diretório raiz do projeto, crie um arquivo chamado ``tsconfig.json``.
 ###### Adicionar no arquivo ``package.json`` :
 
     {
-        "name": "Portifólio WagProjects",
+        "name": "Portfólio WagProjects",
         "version": "1.0.0",
-        "description": "Meu portifólio de projetos",
+        "description": "Meu portfólio de projetos",
         "main": "index.js",
         "scripts": {
             "test": "echo \"Error: no test specified\" && exit 1",

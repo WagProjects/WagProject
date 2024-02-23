@@ -27,7 +27,7 @@ export function criarElementoSobre() {
             </aside>
             <div class="content">
                 <h1 align="center">Bem-vindo(a)</h1>
-                <p>Sou formado em Análise e Desenvolvimento de sistemas, atuo como desenvolvedor front-end, este é meu portifólio!</p>
+                <p>Sou formado em Análise e Desenvolvimento de sistemas, atuo como desenvolvedor front-end, este é meu portfólio!</p>
                 <p>Algumas tecnologias que tenho atuado em meus projetos:</p>
                 <ul class="content-tecnologias">
                     <li> HTML </li>
