@@ -20,7 +20,7 @@ export function criarElementoContato() {
             </label>
             <label class="form-group" for="email">
                 <span>
-                    Email (opcional)
+                    E-mail (opcional)
                 </span>
                 <input type="email" id="email" name="email" placeholder="e-mail@dominio.etc">
             </label>
@@ -50,6 +50,46 @@ export function criarElementoContato() {
                 <button type="submit" id="enviar">Enviar</button>
             </div>
         </form>
+        <section class="section__contato">
+            <div>
+                <aside>
+                    <img src="./public/assets/images/icons/Icon-email.svg" alt="Icone de Email" />
+                </aside>
+                <span>
+                    <h1>E-mail</h1>
+                    <a href="mailto:contato-wagneros@outlook.com" target="_blank">contato-wagneros@outlook.com</a>
+                </span>
+            </div>
+        </section>
+        <section class="section__contato">
+            <div>
+                <aside>
+                    <img src="./public/assets/images/icons/Icon-phone-solid.svg" alt="Icone de Email" />
+                </aside>
+                <span>
+                    <h1>Telefone</h1>
+                    <a href="https://wa.me/5521992316655" target="_blank">+55 21 992316655</a>
+                </span>
+            </div>
+        </section>
+        <section class="section__contato">
+            <div>
+                <aside>
+                    <img src="./public/assets/images/icons/Icon-globe-solid.svg" alt="Icone de Telefone" />
+                </aside>
+                <span>
+                    <h1>Redes</h1>
+                    <ul>
+                        <li><a href="https://github.com/WagProjects" target="_blank"><img src="./public/assets/images/icons/Icon-github.svg" alt="Icone do github"/></a></li>
+                        <li><a href="https://www.linkedin.com/in/wagner-oliveira-b3959a170/" target="_blank"><img src="./public/assets/images/icons/Icon-linkedin-in.svg" alt="Icone do linkedin"/></a></li>
+                        <li><a href="javascript:void(0)"><img src="./public/assets/images/icons/Icon-dev.svg" alt="Icone do devpool"/></a></li>
+                        <li><a href="javascript:void(0)"><img src="./public/assets/images/icons/Icon-instagram.svg" alt="Icone do instagram"/></a></li>
+                        <li><a href="javascript:void(0)"><img src="./public/assets/images/icons/Icon-facebook-f.svg" alt="Icone do facebook"/></a></li>
+                        <li><a href="javascript:void(0)"><img src="./public/assets/images/icons/Icon-twitter.svg" alt="Icone do twitter"/></a></li>
+                    </ul>
+                </span>
+            </div>
+        </section>
     `;
     sectionContato.appendChild(cardContato);
     return sectionContato;

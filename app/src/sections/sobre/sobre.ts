@@ -16,7 +16,7 @@ export function criarElementoSobre(){
                 <ul>
                     <li class="meu__nome">Wagner Oliveira</li>
                     <li><img src="./public/assets/images/icons/Icon-cap.svg" alt="Icone de Cap de Formando" />Desenvolvedor Front-End</li>
-                    <li><img src="./public/assets/images/icons/Icon-email.svg" alt="Iconte de Email" /><a href="mailto:contato-wagneros@outlook.com">contato-wagneros@outlook.com</a></li>
+                    <li><img src="./public/assets/images/icons/Icon-email.svg" alt="Icone de Email" /><a href="mailto:contato-wagneros@outlook.com">contato-wagneros@outlook.com</a></li>
                     <li><img src="./public/assets/images/icons/Icon-whatsapp.svg" alt="Icone de Contato" /><a href="https://wa.me/5521992316655" target="_blank">+55 21 992316655</a></li>
                     <li><img id="icon__localiza" src="./public/assets/images/icons/Icon-location-dot-solid.svg" alt="Icone de Localização" /><a href="https://wa.me/5521992316655" target="_blank">Rio de Janeiro, RJ - Brasil</a></li>
                 </ul>
