@@ -4,7 +4,7 @@ export function criarElementoPoster(){
 
     sectionPoster.innerHTML = `
         <video class="video__intro" loop="loop" muted="muted" autoplay>
-            <source src="../public/assets/images/Video-intro.mp4" type="video/mp4">
+            <source src="../public/assets/images/backgrounds/background-banner.mp4" type="video/mp4">
         </video>
     `
 
