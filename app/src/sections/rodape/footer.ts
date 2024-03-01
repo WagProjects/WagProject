@@ -7,15 +7,15 @@ export function criarElementoRodaPe(){
 
     cardFooter.innerHTML = `
         <span>
-            <img src="./public/assets/images/Logo-02.png" alt="Logo Footer"/>
-            <h1>agner Oliveira</h1>
+            <img src="./public/assets/images/Logo-Footer4.png" alt="Logo Footer"/>
         </span>
         <div>
             <ul>
                 <li><a>Sobre mim</a></li>
                 <li><a>Contato</a></li>
             </ul>
-            <p>Wagner Oliveira | 2024 © Todos Direitos Reservados.</p>
+            <p>Wagner Oliveira</p>
+            <p>2024 © Todos Direitos Reservados.</p>
         </div>
     `
 

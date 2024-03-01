@@ -103,20 +103,6 @@
     box-shadow: var(--box-shadow-card);
 }
 
-.nav__educacao li:hover .educacao__background::before{
-    content: "";
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: url('../public/assets/images/icons/Icon-js.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 50px 50px;
-} 
-
 /* DEFINIÇÃO ITEM 01*/
 .educacao__item-01 .educacao__background{
     background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item01.jpg');
@@ -139,6 +125,30 @@
     background-image: url('../public/assets/images/background-item02.png');
 }
 
+.nav__educacao .educacao__item-02:hover .educacao__background::before{
+    content: "JavaScript";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    padding-bottom: 20px;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--color-font-menu);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--background-color-card);
+    background-image: url('../public/assets/images/icons/Icon-js.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 40px 40px;
+    color: var(--color-star-light);
+    text-shadow: var(--default-light);
+} 
+
 /*DEFINIÇÃO ITEM 03*/
 .educacao__item-03 .educacao__background{
     background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item03.png');
@@ -150,6 +160,30 @@
     background-image: url('../public/assets/images/background-item03.png');
 }
 
+.nav__educacao .educacao__item-03:hover .educacao__background::before{
+    content: "TypeScript";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    padding-bottom: 20px;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--color-font-menu);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--background-color-card);
+    background-image: url('../public/assets/images/icons/Icon-ts.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 35px 35px;
+    color: var(--color-star-light);
+    text-shadow: var(--default-light);
+} 
+
 /*DEFINIÇÃO ITEM 04*/
 .educacao__item-04 .educacao__background{
     background-image: radial-gradient(circle, rgba(0,0,0,0.22172619047619047) 0%, rgba(0,0,0,1) 100%), url('../public/assets/images/background-item02.png');
@@ -160,6 +194,31 @@
     transform: scale(1.05); 
     background-image: url('../public/assets/images/background-item02.png');
 }
+
+.nav__educacao .educacao__item-04:hover .educacao__background::before{
+    content: "JavaScript";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    top: 50%;
+    padding-bottom: 20px;
+    transform: translate(-50%, -50%);
+    border: 1px solid var(--color-font-menu);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--background-color-card);
+    background-image: url('../public/assets/images/icons/Icon-js.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 40px 40px;
+    color: var(--color-star-light);
+    text-shadow: var(--default-light);
+} 
+
 
 /*FIM DEFINIÇÃO DA UL*/
 /* FIM DEFINIÇÃO DO CARD EDUCAÇÃO*/
