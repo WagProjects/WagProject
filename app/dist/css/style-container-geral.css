@@ -13,10 +13,6 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffa500",endColorstr="#000017",GradientType=1);
 }
 
-/* .container__geral{
-    padding: 0px 10%;
-} */
-
 @font-face{
     font-family: 'Varela Round';
     src: url('../../../public/assets/fonts/VarelaRound-Regular.ttf') format('truetype');
@@ -50,3 +46,7 @@ body{
     --default-light: 0px -1px 10px rgba(224, 255, 255, 0.9);
 }
 /* FINAL DAS DEFINIÇÕES DE PADRÕES */
+
+.container__geral{
+    z-index: 999;
+}

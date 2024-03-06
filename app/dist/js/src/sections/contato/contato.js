@@ -39,15 +39,24 @@ export function criarElementoContato() {
                 </div>
             </label>
 
-            <label class="form-group" for="mensagem">
-            <span id="mensagem">
-            Mensagem
-            </span>
-            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Mensagem..." required></textarea>      
+            <label class="form-group" for="conteudo">
+                <span id="mensagem">
+                    Mensagem
+                </span>
+                <textarea id="conteudo" name="conteudo" rows="5" placeholder="Mensagem..." required></textarea>      
             </label>
+
             <div class="buttons-container">
                 <button type="reset" id="limpar">Limpar</button>
-                <button type="submit" id="enviar">Enviar</button>
+                <button type="button" id="enviar" class="confirmar">Enviar</button>
+            </div>
+
+            <div class="confirmacao" style="display: none;">
+                <p>Você deseja enviar o e-mail?</p>
+                <span>
+                    <button type="submit" id="confirmar" >Confirmar</button>
+                    <button type="button" id="revisar" class="confirmar">Revisar</button>
+                <span>
             </div>
         </form>
         <section class="section__contato">
@@ -91,6 +100,30 @@ export function criarElementoContato() {
             </div>
         </section>
     `;
+    document.addEventListener('DOMContentLoaded', function () {
+        const botaoEnviar = document.querySelector("button.confirmar");
+        const botaoRevisar = document.querySelector(".confirmacao button.confirmar");
+        const elementoConfirma = document.querySelector(".confirmacao");
+        const elementoBotoes = document.querySelector(".buttons-container");
+        // Verificar se os seletores encontraram os elementos corretamente
+        if (!botaoEnviar || !botaoRevisar || !elementoConfirma) {
+            console.error("Elemento de confirmação não encontrado.");
+            return;
+        }
+        function toggleDisplay() {
+            // Verificar o estado atual do display e alternar
+            elementoConfirma.style.display =
+                (elementoConfirma.style.display === "none" || elementoConfirma.style.display === "") ? "flex" : "none";
+        }
+        botaoEnviar.addEventListener("click", function () {
+            elementoBotoes.style.display = "none";
+            toggleDisplay();
+        });
+        botaoRevisar.addEventListener("click", function () {
+            elementoBotoes.style.display = "flex";
+            toggleDisplay();
+        });
+    });
     sectionContato.appendChild(cardContato);
     return sectionContato;
 }

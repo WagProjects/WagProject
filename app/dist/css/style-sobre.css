@@ -1,5 +1,7 @@
 /* DEFINIÇÃO CONTAINER SOBRE */
 .container__sobre{
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -67,7 +69,7 @@
 
 .card__sobre:hover{
     box-shadow: var(--box-light-card);
-    background: linear-gradient(171deg, rgba(24,20,50,0.3) 0%, rgba(0,0,0,0.5) 49%, rgba(74,75,139,0.3) 100%);
+    background: linear-gradient(171deg, rgba(24,20,50,0.6) 0%, rgba(0,0,0,0.4) 49%, rgba(74,75,139,0.6) 100%);
     background-size: contain; /*contain: A imagem é dimensionada para caber totalmente dentro do contêiner, mantendo a proporção original.*/
     
 }

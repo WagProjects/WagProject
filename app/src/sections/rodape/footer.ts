@@ -7,7 +7,7 @@ export function criarElementoRodaPe(){
 
     cardFooter.innerHTML = `
         <span>
-            <img src="./public/assets/images/Logo-Footer4.png" alt="Logo Footer"/>
+            <img src="./public/assets/images/Logo-Footer.png" alt="Logo Footer"/>
         </span>
         <div>
             <ul>

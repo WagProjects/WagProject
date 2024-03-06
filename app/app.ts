@@ -4,9 +4,8 @@ import { criarElementoPoster } from "./src/sections/poster/poster.js"
 import { criarElementoSobre } from "./src/sections/sobre/sobre.js"
 import { criarElementoProjetos } from "./src/sections/projetos/projetos.js"
 import { criarElementoEducacao } from "./src/sections/educacao/educacao.js"
-import { criarElementoContato } from "./src/sections/contato/contato.js"
+import { criarElementoContato} from "./src/sections/contato/contato.js"
 import { criarElementoRodaPe } from "./src/sections/rodape/footer.js"
-
 
 function inserirElementoBody(elemento: HTMLElement){
     const menu = document.querySelector("body") as HTMLBodyElement

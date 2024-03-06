@@ -1,4 +1,6 @@
 .container__contato{
+    position: relative;
+    z-index: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,6 +81,7 @@ form{
 .buttons-container{
     display: flex;
     margin-left: 20%;
+    margin-top: 45px;
 }
 
 .buttons-container button{
@@ -153,6 +156,122 @@ form{
 .buttons-container #enviar:active::before,
 .buttons-container #limpar:active::before{
     opacity: 0.4;
+}
+
+.confirmacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20%; 
+}
+
+.confirmacao p{
+    margin-bottom: 10px;
+}
+
+div.confirmacao > span{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.confirmacao #confirmar{
+    position: relative;
+    width: 40%;
+    height: 50px;
+    margin-right: 8px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 0 0 0 10px;
+    color: var(--color-star-light);
+    font-size: 1.10em;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, #00c9ff 0%, #92fe9d 25%, rgb(0,255,127) 40%);
+    background-size: 400% 100%;
+    animation: gradient-confirmar 10s infinite;
+}
+
+@keyframes gradient-confirmar {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.confirmacao #confirmar::before{
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 28%;
+    width: 20px;
+    height: 20px;
+    background-image: url('../public/assets/images/icons/Icon-circle-check-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.confirmacao #revisar{
+    position: relative;
+    width: 60%;
+    height: 50px;
+    border: none;
+    border-radius: 0 0 10px 0;
+    color: var(--color-star-light);
+    font-size: 1.10em;
+    font-weight: bold;
+    background-image: linear-gradient(90deg, #FFE53B 0%, #FF2525 25%);
+    background-size: 800% 100%;
+    animation: gradient-confirmar 15s infinite;
+}
+
+@keyframes gradient-revisar {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.confirmacao #revisar::before{
+    content: "";
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 36%;
+    width: 20px;
+    height: 20px;
+    background-image: url('../public/assets/images/icons/Icon-arrow-rotate-left-solid.svg');
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.confirmacao #confirmar:hover,
+.confirmacao #revisar:hover{
+    cursor: pointer;
+    text-shadow: var(--default-light);
+}
+
+.confirmacao #confirmar:active,
+.confirmacao #revisar:active{
+    border: 1px solid #000;
+    text-shadow: none;
+    color: var(--color-font-menu);
+}
+
+.confirmacao #confirmar:active::before,
+.confirmacao #revisar:active::before{
+    opacity: 0.5;
 }
 
 input,

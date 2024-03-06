@@ -73,18 +73,24 @@ export function criarElementoEducacao(){
     cardExtraEducacao.innerHTML = `
     <div class="swiper swiper2">
         <div class="swiper-wrapper swiper-wrapper2">
-            <div class="swiper-slide swiper-slide2">Slide 1</div>
-            <div class="swiper-slide swiper-slide2">Slide 2</div>
             <div class="swiper-slide swiper-slide2">
-                <img src="./public/assets/images/fokus.jpeg" />
+                <img src="./public/assets/images/certificados/certificado-js1.png" />
+                </div>
+            <div class="swiper-slide swiper-slide2">
+                <img src="./public/assets/images/certificados/certificado-js2.png" />
             </div>
             <div class="swiper-slide swiper-slide2">
-                <img src="./public/assets/images/fokus.jpeg" />
+                <img src="./public/assets/images/certificados/certificado-js3.png" />
             </div>
             <div class="swiper-slide swiper-slide2">
-                <img src="./public/assets/images/fokus.jpeg" />
+                <img src="./public/assets/images/certificados/certificado-git.webp" />
             </div>
-            <div class="swiper-slide swiper-slide2">Slide 6</div>
+            <div class="swiper-slide swiper-slide2">
+                <img src="./public/assets/images/certificados/certificado-rct1.png" />
+            </div>
+            <div class="swiper-slide swiper-slide2">
+            <img src="./public/assets/images/certificados/certificado-rct2.png" />
+            </div>
         </div>
         <!-- If we need pagination -->
         <div class="swiper-pagination swiper-pagination2"></div>

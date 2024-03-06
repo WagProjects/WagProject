@@ -18,7 +18,10 @@ export function criarElementoProjetos(){
                 <!-- Slides -->
                 <div class="swiper-slide swiper-slide-projetos">
                     <div class="swiper-player">
-                        <img src="./public/assets/images/alurabook.jpg" alt="Projeto Alurabooks" />
+                        <video class="projeto__video" loop="loop" muted="muted" autoplay>
+                            <source src="../public/assets/videos/video-alurabook.mp4" type="video/mp4">
+                            <img src="./public/assets/images/alurabook.jpg" alt="Miniatura do vídeo Projeto Alura Book" />
+                        </video>
                     </div>
                     <aside>
                         <div class="aside-content">
@@ -45,7 +48,7 @@ export function criarElementoProjetos(){
                 </div>
                 <div class="swiper-slide swiper-slide-projetos">
                     <div class="swiper-player">
-                        <img src="./public/assets/images/museunacional.jpg" alt="Projeto Museu Nacional" />
+                        <img src="./public/assets/images/museunacional.jpg" alt="Miniatura do vídeo Museu Nacional" />
                     </div>
                     <aside>
                         <div class="aside-content">
@@ -70,7 +73,10 @@ export function criarElementoProjetos(){
                 </div>
                 <div class="swiper-slide swiper-slide-projetos">
                     <div class="swiper-player">
-                        <img src="./public/assets/images/spotify.jpg" alt="Projeto Spotify" />
+                        <video class="projeto__video" loop="loop" muted="muted" autoplay>
+                            <source src="../public/assets/videos/video-spotify.mp4" type="video/mp4">
+                            <img src="./public/assets/images/spotify.jpg" alt="Miniatura do vídeo do Projeto Spotify" />
+                        </video>
                     </div>
                     <aside>
                         <div class="aside-content">
@@ -97,7 +103,10 @@ export function criarElementoProjetos(){
                 </div>
                 <div class="swiper-slide swiper-slide-projetos">
                     <div class="swiper-player">
-                        <img src="./public/assets/images/culturama.jpg" alt="Projeto Culturama" />
+                        <video class="projeto__video" loop="loop" muted="muted" autoplay>
+                            <source src="../public/assets/videos/video-culturama.mp4" type="video/mp4">
+                            <img src="./public/assets/images/culturama.jpg" alt="Miniatura do vídeo do Projeto Culturama" />
+                        </video>
                     </div>
                     <aside>
                         <div class="aside-content">
@@ -123,7 +132,10 @@ export function criarElementoProjetos(){
                 </div>
                 <div class="swiper-slide swiper-slide-projetos">
                     <div class="swiper-player">
-                        <img src="./public/assets/images/monibank.jpg" alt="Projeto Monibank" />
+                        <video class="projeto__video" loop="loop" muted="muted" autoplay>
+                            <source src="../public/assets/videos/video-monibank.mp4" type="video/mp4">
+                            <img src="./public/assets/images/monibank.jpg" alt="Miniatura do vídeo do Projeto Monibank" />
+                        </video>
                     </div>
                     <aside>
                         <div class="aside-content">
@@ -149,7 +161,10 @@ export function criarElementoProjetos(){
                 </div>
                 <div class="swiper-slide swiper-slide-projetos">
                     <div class="swiper-player">
-                        <img src="./public/assets/images/finans.jpg" alt="Projeto Banco Finans" />
+                        <video class="projeto__video" loop="loop" muted="muted" autoplay>
+                            <source src="../public/assets/videos/video-finans.mp4" type="video/mp4">
+                            <img src="./public/assets/images/finans.jpg" alt="Miniatura do vídeo Projeto Banco Finans" />
+                        </video>
                     </div>
                     <aside>
                         <div class="aside-content">
