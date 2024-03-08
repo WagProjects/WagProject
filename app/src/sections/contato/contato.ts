@@ -116,7 +116,7 @@ export function criarElementoContato(){
             return;
         }
 
-        function toggleDisplay() {
+        function alteraDisplay() {
             // Verificar o estado atual do display e alternar
             elementoConfirma.style.display = 
             (elementoConfirma.style.display === "none" || elementoConfirma.style.display === "") ? "flex" : "none";
@@ -124,11 +124,11 @@ export function criarElementoContato(){
 
         botaoEnviar.addEventListener("click", function (){
             elementoBotoes.style.display = "none"
-            toggleDisplay();
+            alteraDisplay();
         });
         botaoRevisar.addEventListener("click", function(){
             elementoBotoes.style.display = "flex"
-            toggleDisplay();
+            alteraDisplay();
         });
     })
 
