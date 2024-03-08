@@ -9,7 +9,8 @@
     "server": "lite-server --baseDir=app/dist",
     "start": "concurrently \"npm run watch\" \"npm run server\"",
     "compile": "tsc",
-    "watch": "tsc -w"
+    "watch": "tsc -w",
+    "deploy": "gh-pages -d app/dist"
   },
   "author": "Wagner Oliveira",
   "license": "ISC",
