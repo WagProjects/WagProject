@@ -2,6 +2,7 @@
     position: relative;
     z-index: 1;
     background: linear-gradient(0deg, rgba(0, 0, 0,1) 50%, rgba(20, 20, 20) 100%);
+    box-shadow: var(--box-shadow-card);
     margin-top: 200px;
     height: 250px;
     box-sizing: border-box;
