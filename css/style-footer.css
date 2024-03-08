@@ -1,0 +1,47 @@
+.rodape{
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(0deg, rgba(0, 0, 0,1) 50%, rgba(20, 20, 20) 100%);
+    margin-top: 200px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 35px;
+    color: var(--color-font-menu);
+    
+}
+
+.card__footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape .card__footer span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.rodape .card__footer span img{
+    width: 30%;
+    height: 30%;
+}
+
+.rodape .card__footer div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rodape .card__footer ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.rodape .card__footer ul li{
+    padding: 10px;
+}
+
