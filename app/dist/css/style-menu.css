@@ -29,6 +29,7 @@
 
 .container-icon-music:hover{
     transform: rotate(25deg);
+    cursor: pointer;
 }
 
 .container-icon-music::before{
@@ -41,7 +42,6 @@
     transform: translate(-26%, -52%); 
     border: 1px solid var(--color-font-menu);
     border-radius: 50%;
-    cursor: pointer;
 }
 
 .container-icon-music.muted::after{
@@ -49,9 +49,9 @@
     position: absolute;
     width: 36px;
     height: 36px;
-    top: 49%;
+    top: 50%;
     left: 0%; 
-    transform: translate(-25%, -50.9%); 
+    transform: translate(-25.4%, -52.2%); 
     background-color: var(--background-color-card);
     border-radius: 50%;
     background-image: url(../public/assets/images/icons/Icon-ban-solid.svg);

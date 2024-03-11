@@ -1,6 +1,6 @@
 export function criarElementoMenu(): HTMLElement{
-    const menuNavegacao = document.createElement('nav')
-    menuNavegacao.classList.add('menu')
+    const menuNavegacao = document.createElement('nav');
+    menuNavegacao.classList.add('menu');
     menuNavegacao.innerHTML = `
         <div>
             <span class="container-icon-music">
@@ -17,26 +17,23 @@ export function criarElementoMenu(): HTMLElement{
             <li class="menu-button" data-target="section4" onclick="active(this)"><a href="#" title="Minhas formações e cursos" onclick="scrollElemento('.container__educacao', event)">Educação</a></li>
             <li class="menu-button" data-target="section5" onclick="active(this)"><a href="#" title="Entre em contato" onclick="scrollElemento('.container__contato', event)">Contato</a></li>
         </ul>
-    `
-
+    `;
     const iconMusic = menuNavegacao.querySelector('.container-icon-music');
     if (iconMusic !== null) {
         iconMusic.addEventListener('click', alternaMute);
     }
-    
     function alternaMute() {
         var audios = document.querySelectorAll('.audio-tema') as NodeListOf<HTMLAudioElement>;
-
         audios.forEach((audio) => {
             if (audio.muted) {
                 audio.muted = false;
-                iconMusic?.classList.remove('muted')
-            } else {
+                iconMusic?.classList.remove('muted');
+            }
+            else {
                 audio.muted = true;
-                iconMusic?.classList.add('muted')
+                iconMusic?.classList.add('muted');
             }
         });
     }
-
-    return menuNavegacao
+    return menuNavegacao;
 }
