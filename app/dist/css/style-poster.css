@@ -11,7 +11,7 @@
 }
 
 /*Efeito desvanescer debaixo do video*/
-.container__poster:after {
+.container__poster::before {
     content: "";
     display: block;
     position: absolute;
@@ -20,4 +20,62 @@
     width: 100%;
     height: 100px;
     background: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(0, 0, 0, 0.9));
-  }
+}
+
+/*ESTILO DAS SETAS DE AVANÇO NO BOTTOM DO VIDEO*/
+.poster__setas{
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 30px;
+    height: 45px;
+}
+
+.seta__avancar1{
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('../public/assets/images/seta-avancar.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    animation: pisca 1.5s infinite;
+}
+
+.seta__avancar2{
+    position: absolute;
+    top: 7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('../public/assets/images/seta-avancar.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    animation: pisca 1.5s infinite 0.1s;
+}
+
+.seta__avancar3{
+    position: absolute;
+    top: 19px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 30px;
+    background-image: url('../public/assets/images/seta-avancar.svg');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    animation: pisca 1.5s infinite 0.2s;
+}
+
+@keyframes pisca {
+    0%, 100%{
+        opacity: 0.1;
+    }
+    50% {
+        opacity: 0.6;
+    }
+}

@@ -33,7 +33,7 @@ export function criarElementoEducacao(){
                 <div class="educacao__content">
                     <h1>Desenvolva Aplicações Web com Javascript</h1>
                     <span class="educacao__instituicao">
-                        <p><a href="https://cursos.alura.com.br/user/contato-wagneros/degree-javascript-front-end-687029/certificate" target="_blank"><img src="./public/assets/images/icons/Icon-link-solid.svg"/>Alura</a></p>
+                        <p><a href="https://cursos.alura.com.br/degree/certificate/6af9601e-f652-40db-b268-b1ea626f4d96?lang=pt_BR" target="_blank"><img src="./public/assets/images/icons/Icon-link-solid.svg"/>Alura</a></p>
                         <p>2023</p>
                     </span>
                     <p>Formação: 8 cursos com carga horária estimada de 62 horas</p>
@@ -45,7 +45,7 @@ export function criarElementoEducacao(){
                 <div class="educacao__content">
                     <h1>Melhore Sua Experiência de Desenvolvimento com Typescript</h1>
                     <span class="educacao__instituicao">
-                        <p><a href="https://cursos.alura.com.br/user/contato-wagneros/degree-typescript-v309729-309729/certificate" target="_blank"><img src="./public/assets/images/icons/Icon-link-solid.svg"/>Alura</a></p>
+                        <p><a href="https://cursos.alura.com.br/degree/certificate/3e64eb1b-a896-45e4-8c99-c64d3b0618ec?lang=pt_BR" target="_blank"><img src="./public/assets/images/icons/Icon-link-solid.svg"/>Alura</a></p>
                         <p>2023</p>
                     </span>
                     <p>Formação: 3 cursos com carga horária estimada em 31 horas.</p>
@@ -57,7 +57,7 @@ export function criarElementoEducacao(){
                 <div class="educacao__content">
                     <h1>Desenvolva Aplicações Web em Javascript com Tarefas Concorrentes e Orientadas a Objetos</h1>
                     <span class="educacao__instituicao">
-                        <p><a href="https://cursos.alura.com.br/user/contato-wagneros/degree-typescript-v309729-309729/certificate" target="_blank"><img src="./public/assets/images/icons/Icon-link-solid.svg"/>Alura</a></p>
+                        <p><a href="https://cursos.alura.com.br/degree/certificate/aa8e5058-1f53-4355-9e7d-9c520488efe4?lang=pt_BR" target="_blank"><img src="./public/assets/images/icons/Icon-link-solid.svg"/>Alura</a></p>
                         <p>2023</p>
                     </span>
                     <p>Formação: 3 cursos com carga horária estimada em 23 horas.</p>
