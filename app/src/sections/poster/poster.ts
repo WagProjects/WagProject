@@ -12,10 +12,10 @@ export function criarElementoPoster(){
             </div>
             <div class="poster__buttons">
                 <div class="rede__button git">
-                    <a href="https://github.com/WagProjects" target="_blank"><img class="icon__rede" alt="Icone do github" src="../public/assets/images/icons/Icon-square-github.svg"/>Github</a>
+                    <a><img class="icon__rede" alt="Icone do github" src="../public/assets/images/icons/Icon-square-github.svg"/>Github</a>
                 </div>
                 <div class="rede__button linkedin">
-                    <a href="https://www.linkedin.com/in/wagner-oliveira-b3959a170/" target="_blank"><img class="icon__rede" alt="Icone do linkedin" src="../public/assets/images/icons/Icon-linkedin.svg"/>Linkedin</a>
+                    <a><img class="icon__rede" alt="Icone do linkedin" src="../public/assets/images/icons/Icon-linkedin.svg"/>Linkedin</a>
                 </div>
             </div>
         </div>
