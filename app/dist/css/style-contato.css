@@ -52,7 +52,6 @@ form{
     justify-content: right;
     padding-right: 20px;
     color: var(--color-star-light);
-    text-shadow: var(--default-light);
 }
 
 .form-group div{
