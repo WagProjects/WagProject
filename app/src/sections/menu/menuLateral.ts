@@ -116,8 +116,7 @@ export function criarElementoMenuLateral(){
         //e a soma da posição atual de rolagem vertical (scrollTop) e a altura visível da janela (window.innerHeight).
         const scrollGapBottom = document.documentElement.scrollHeight - (scrollTop + window.innerHeight);//Distância do fundo da página
 
-    
-        if (scrollTop <= scrollGapTop || scrollGapBottom <= 250) {
+        if (scrollTop <= scrollGapTop || scrollGapBottom <= 350) { 
           menuLateral.classList.add('transparente');
         }else {
           menuLateral.classList.remove('transparente');

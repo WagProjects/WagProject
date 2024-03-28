@@ -4,9 +4,8 @@
     background: linear-gradient(0deg, rgba(0, 0, 0,1) 50%, rgba(20, 20, 20) 100%);
     box-shadow: var(--box-shadow-card);
     margin-top: 200px;
-    height: 250px;
+    height: 350px;
     box-sizing: border-box;
-    padding: 35px;
     color: var(--color-font-menu);
     
 }
@@ -16,6 +15,30 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.social__footer{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0 70px 0;
+    border-bottom: 1px solid var(--color-font-menu);
+}
+
+.social__footer ul li{
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__footer ul li svg{
+    fill: var(--color-font-menu);
+    vertical-align: middle;
+    width: 30px; 
+    max-height: 30px;
+}
+
+.social__footer ul li svg:hover svg{
+    fill: var(--color-star-light);
 }
 
 .rodape .card__footer span {
