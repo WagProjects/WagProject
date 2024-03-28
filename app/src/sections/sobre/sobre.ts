@@ -2,7 +2,7 @@ export function criarElementoSobre(){
     const sectionSobre = document.createElement('section')
     const cardSobre = document.createElement('div')
 
-    sectionSobre.classList.add('container__sobre')
+    sectionSobre.classList.add('container__sobre', 'container')
     sectionSobre.id = 'section2'
     cardSobre.classList.add('card__sobre')
     
@@ -12,13 +12,12 @@ export function criarElementoSobre(){
     
     cardSobre.innerHTML = `
             <aside>
-                <img src="./public/assets/images/Ultima.jpg" alt="Perfil" id="foto__perfil" />
                 <ul>
                     <li class="meu__nome">Wagner Oliveira</li>
                     <li><img src="./public/assets/images/icons/Icon-cap.svg" alt="Icone de Cap de Formando" />Desenvolvedor Front-End</li>
                     <li><img src="./public/assets/images/icons/Icon-email.svg" alt="Icone de Email" /><a href="mailto:contato-wagneros@outlook.com">contato-wagneros@outlook.com</a></li>
                     <li><img src="./public/assets/images/icons/Icon-whatsapp.svg" alt="Icone de Contato" /><a href="https://wa.me/5521992316655" target="_blank">+55 21 992316655</a></li>
-                    <li><img id="icon__localiza" src="./public/assets/images/icons/Icon-location-dot-solid.svg" alt="Icone de Localização" /><a href="https://wa.me/5521992316655" target="_blank">Rio de Janeiro, RJ - Brasil</a></li>
+                    <li><img class="icon__localiza" src="./public/assets/images/icons/Icon-location-dot-solid.svg" alt="Icone de Localização" /><a href="https://wa.me/5521992316655" target="_blank">Rio de Janeiro, RJ - Brasil</a></li>
                 </ul>
             </aside>
             <div class="content">

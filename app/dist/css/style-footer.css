@@ -37,7 +37,7 @@
     max-height: 30px;
 }
 
-.social__footer ul li svg:hover svg{
+.social__footer ul li div:hover svg{
     fill: var(--color-star-light);
 }
 

@@ -1,6 +1,6 @@
 export function criarElementoEducacao() {
     const sectionEducacao = document.createElement('section');
-    sectionEducacao.classList.add('container__educacao');
+    sectionEducacao.classList.add('container__educacao', 'container');
     sectionEducacao.id = 'section4';
     const cardEducacao = document.createElement('div');
     cardEducacao.classList.add('card__educacao');

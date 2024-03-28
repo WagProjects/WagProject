@@ -1,13 +1,19 @@
 export function criarElementoPoster() {
     const sectionPoster = document.createElement('section');
-    sectionPoster.classList.add('container__poster');
+    sectionPoster.classList.add('container__poster', 'container');
     sectionPoster.innerHTML = `
         <video class="video__intro " loop="loop" muted="muted" autoplay>
             <source src="../public/assets/images/backgrounds/background-banner.mp4" type="video/mp4">
         </video>
         <div class="card__poster">
-            <div>
-                <h1>Zoio</h1>
+            <div class="poster__perfil">
+                <img src="./public/assets/images/Ultima.jpg" alt="Perfil" id="foto__perfil" />
+                <h2>Wagner Oliveira</h2>
+                <ul>
+                    <li><img class="icon__perfil" src="./public/assets/images/icons/Icon-cap.svg" alt="Icone de Cap de Formando" />Desenvolvedor Front-End</li>
+                    <li><img class="icon__localiza" src="./public/assets/images/icons/Icon-location-dot-solid.svg" alt="Icone de Localização" />Rio de Janeiro, RJ - Brasil</li>
+                    <li></li>
+                </ul>
             </div>
             <div class="poster__buttons">
                 <div class="rede__button git">

@@ -15,20 +15,70 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 450px;
+    justify-content: space-between;
+    text-align: center;
 
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 720px;
     width: 1280px;
+    padding: 20px 0 30px 0;
     color: var(--color-star-light);
     background: radial-gradient(circle, rgba(14,14,14,1) 0%, rgba(7,7,7,1) 100%);
     box-shadow: var(--box-shadow-card);
     border: 1px solid rgb(22,22,22);
     border-radius: 5px;
 }
+
+.poster__perfil{
+    color: var(--color-font-menu);
+    transition: all 1s ease;
+}
+
+.poster__perfil:hover{
+    text-shadow: var(--default-light);
+    color: var(--color-star-light);
+}
+
+#foto__perfil{
+    margin: 20px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--color-font-menu);
+    transition: all 1s ease;
+}
+
+#foto__perfil:hover{
+    box-shadow: var(--default-light);
+}
+
+.poster__perfil h2{
+    margin: 20px;
+    font-size: 2em;
+}
+
+.poster__perfil ul{
+    list-style: none;
+}
+
+.poster__perfil ul li{
+    margin: 8px;
+}
+
+.poster__perfil ul li img.icon__perfil{
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+
+.poster__perfil ul li img.icon__localiza{
+    vertical-align: middle;
+    margin-right: 4px;
+    width: 15px;
+}
+
 
 .poster__buttons{
     display: flex;
